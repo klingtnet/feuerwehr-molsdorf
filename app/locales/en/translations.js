@@ -1,11 +1,15 @@
 export default {
-  // "some.translation.key": "Text for some.translation.key",
-  //
-  // "a": {
-  //   "nested": {
-  //     "key": "Text for a.nested.key"
-  //   }
-  // },
-  //
-  // "key.with.interpolation": "Text with {{anInterpolation}}"
+  application: {
+    brand: {
+      short: "FFM",
+      description: " - Volunteer fire brigade Molsdorf"
+    }
+  },
+  navigation: {
+    welcome: "Home",
+    association: "Association",
+    education: "Education",
+    youth: "Youth fire department",
+    honor: "Honor"
+  }
 };

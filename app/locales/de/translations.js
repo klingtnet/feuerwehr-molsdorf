@@ -1,11 +1,15 @@
 export default {
-  // "some.translation.key": "Text for some.translation.key",
-  //
-  // "a": {
-  //   "nested": {
-  //     "key": "Text for a.nested.key"
-  //   }
-  // },
-  //
-  // "key.with.interpolation": "Text with {{anInterpolation}}"
+  application: {
+    brand: {
+      short: "FFM",
+      description: " - Freiwillige Feuerwehr Molsdorf"
+    }
+  },
+  navigation: {
+    welcome: "Willkommen",
+    association: "Verein",
+    education: "Einsatzabteilung",
+    youth: "Jugendfeuerwehr",
+    honor: "Ehre"
+  }
 };

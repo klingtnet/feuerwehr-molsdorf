@@ -3,16 +3,10 @@
 // Footer
 
 .footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
   padding: $space-default $space-default * 2;
   color: $text-color-default;
-  background: darken($base-color, $color-offset-default);
-  border-top: $border-width-default $border-style-default $border-color-default;
-
-  a {
-    color: $text-color-default;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
+  background: darken($base-color, $color-offset-default * 2);
 }

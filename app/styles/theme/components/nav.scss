@@ -2,39 +2,6 @@
 //
 // Nav
 
-.nav {
-  $nav-background: lighten($body-bg, $color-offset-default);
-
-  @include flex-grow(0);
-  padding: $space-default * 2;
-  
-  a {
-    color: $text-color-default;
-    white-space: nowrap;
-    display: block;
-    padding: $space-default * 2;
-    //border: $border-width-default $border-style-default lighten($nav-background, $color-offset-default * 3);
-    border: $border-width-default $border-style-default transparent;
-
-    & ~ a {
-      margin-top: $space-default * 2;
-    }
-
-    &:hover {
-      text-decoration: none;
-      border: $border-width-default $border-style-default lighten($nav-background, $color-offset-default * 3);
-      //background: lighten($body-bg, $color-offset-default * 2);
-      cursor: pointer;
-    }
-
-    .fa {
-      margin: 0 $space-default 0 0;
-    }
-
-  }
-}
-
-.navigation-outlet {
-  @include flex-grow(1);
-  padding: $space-default $space-default * 2;
+.navbar {
+  background: darken($base-color, $color-offset-default * 2);
 }
