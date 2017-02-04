@@ -1,0 +1,18 @@
+
+//
+// Global
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  background: $body-bg;
+  color: $text-color-default;
+  font-size: $text-fontSize-default;
+}
