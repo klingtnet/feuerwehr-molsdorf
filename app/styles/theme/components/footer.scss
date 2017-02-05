@@ -6,7 +6,16 @@
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-  padding: $space-default $space-default * 2;
-  color: $text-color-default;
-  background: darken($base-color, $color-offset-default * 2);
+  background: $color-default;
+
+	.content {
+		padding: $space-default * 3 0;
+		background: darken($color-default, $color-offset-default * 2);
+	}
+
+	.copyright {
+		padding: $space-default * 3 0;
+		font-size: $text-fontSize-default - 0.2;
+	}
+
 }

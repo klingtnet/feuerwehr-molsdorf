@@ -1,7 +1,7 @@
 export default {
   application: {
     brand: {
-      short: "FFM",
+      short: "FFW",
       description: " - Freiwillige Feuerwehr Molsdorf"
     }
   },
@@ -10,6 +10,13 @@ export default {
     association: "Verein",
     education: "Einsatzabteilung",
     youth: "Jugendfeuerwehr",
-    honor: "Ehre"
-  }
+    honor: "Ehrenabteilung"
+  },
+  footer: {
+    copyright: "&copy; 2017 - {{copyrightTo}} {{brand}}"
+  },
+	emergency: {
+		call: "Notruf 112",
+		description: "Feuerwehr und Rettungsdienst"
+	}
 };

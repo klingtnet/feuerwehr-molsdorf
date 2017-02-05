@@ -3,5 +3,30 @@
 // Header
 
 .header {
-  
+
+	.navbar {
+		background: $color-default;
+		font-size: $text-fontSize-default - 0.2;
+
+		.navbar-brand {
+			.navbar-text {
+				padding-top: 0;
+				padding-bottom: 0;
+			}
+		}
+
+	}
+
+	.emergency {
+		background: $brand-primary;
+		text-align: center;
+		padding: $space-default * 1 0;
+
+		.call {
+			font-size: $text-fontSize-default * 2;
+			display: block;
+		}
+
+	}
+
 }

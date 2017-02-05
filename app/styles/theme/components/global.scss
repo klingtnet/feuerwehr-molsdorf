@@ -17,3 +17,12 @@ body {
   color: $text-color-default;
   font-size: $text-fontSize-default;
 }
+
+// Global transition for all link hover
+a {
+
+	&:hover {
+		@include transition();
+	}
+
+}

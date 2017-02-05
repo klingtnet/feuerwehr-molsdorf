@@ -4,8 +4,8 @@
 $enable-flex: true;
 
 $font-family-base: 'Raleway', sans-serif;
-$brand-primary: #ad3405;
-$body-bg: $brand-primary;
+$brand-primary: #a93103;
+//$body-bg: $brand-primary;
 
 //
 // Color Offsets
@@ -15,9 +15,9 @@ $color-offset-default: 5%;
 //
 // Base Colors
 
-$base-color: $brand-primary;
+$base-color: #282B2D;									// ( Grey )
 
-$color-default:	  	$base-color;      // Default
+$color-default:	  	$base-color;   	  // Default ( Base )
 $color-primary:	  	$color-default;   // Primary
 $color-info:      	$color-default;		// Info
 $color-success:	  	$color-default;		// Success

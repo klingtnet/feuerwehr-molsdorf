@@ -1,5 +1,5 @@
 <header class="header">
-	
+
 	<nav class="navbar navbar-toggleable-md navbar-inverse">
 		<div class="container">
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@
 				{{fa-icon "fire-extinguisher"}}
 				{{t "application.brand.short"}}
 				<div class="navbar-text">
-					<small>{{t "application.brand.description"}}</small>
+					<small class="hidden-xs-down">{{t "application.brand.description"}}</small>
 				</div>
 			</a>
 
@@ -18,15 +18,23 @@
 		    <div class="navbar-nav">
 					{{#each model.navigation as |item|}}
 						{{#if item.active}}
-		      		<a class="nav-item nav-link active" href="{{item.link}}">{{t item.localization}}</a>
+		      		<a class="nav-item nav-link active" href="{{item.link}}">
+								{{fa-icon item.ico class="hidden-md-up"}}{{t item.localization}}
+							</a>
 						{{else}}
-							<a class="nav-item nav-link" href="{{item.link}}">{{t item.localization}}</a>
+							<a class="nav-item nav-link" href="{{item.link}}">
+								{{fa-icon item.ico class="hidden-md-up"}}{{t item.localization}}
+							</a>
 						{{/if}}
 					{{/each}}
 		    </div>
 		  </div>
 		</div>
 	</nav>
+
+	<div class="emergency">
+		<span class="call">{{t "emergency.call"}}</span>
+	</div>
 
 </header>
 
@@ -35,7 +43,14 @@
 </div>
 
 <footer class="footer">
-	<div class="container">
-		xxx
+	<div class="content">
+		<div class="container text-center">
+			...
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="container text-center">
+			{{t "footer.copyright" copyrightTo=model.copyrightTo brand=(t 'application.brand.description')}}
+		</div>
 	</div>
 </footer>
