@@ -16,7 +16,12 @@ export default {
     copyright: "&copy; 2017 - {{copyrightTo}} {{brand}}"
   },
 	emergency: {
-		call: "Notruf 112",
-		description: "Feuerwehr und Rettungsdienst"
+		call: "Notruf - 112"
+	},
+	routes: {
+		association: "verein",
+		department: "einsatzabteilung",
+		youthfiredepartment: "jugendfeuerwehr",
+		honorarydepartment: "Ehrenabteilung"
 	}
 };
