@@ -16,7 +16,7 @@ export default {
     copyright: "&copy; 2017 - {{copyrightTo}} {{brand}}"
   },
 	emergency: {
-		call: "Notruf - 112"
+		call: "Notruf 112"
 	},
 	routes: {
 		association: "verein",
