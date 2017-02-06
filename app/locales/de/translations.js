@@ -1,8 +1,8 @@
 export default {
   application: {
     brand: {
-      short: "FFW",
-      description: " - Freiwillige Feuerwehr Molsdorf"
+      short: "Freiwillige Feuerwehr Molsdorf",
+      description: ""
     }
   },
   navigation: {

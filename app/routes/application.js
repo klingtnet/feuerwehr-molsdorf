@@ -11,22 +11,22 @@ export default Ember.Route.extend({
         link: "/",
         active: true
       }, {
-        ico: "home",
+        ico: "group",
         localization: "navigation.association",
         link: "association",
         active: false
       }, {
-        ico: "home",
+        ico: "truck",
         localization: "navigation.education",
         link: "education",
         active: false
       }, {
-        ico: "home",
+        ico: "child",
         localization: "navigation.youth",
         link: "youth",
         active: false
       }, {
-        ico: "home",
+        ico: "flag",
         localization: "navigation.honor",
         link: "honor",
         active: false
