@@ -17,10 +17,16 @@
 			<div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
 		    <div class="navbar-nav">
 					{{#each model.navigation as |item|}}
-	      		<a class="nav-item nav-link" href="{{item.link}}">
+	      		{{!--
+						<a class="nav-item nav-link" {{action 'linkTo' item.link}}>
+						--}}
+						{{#link-to item.link class="nav-item nav-link"}}
 							{{fa-icon item.ico class="hidden-lg-down"}}
 							<span>{{t item.localization}}</span>
+						{{/link-to}}
+						{{!--
 						</a>
+						--}}
 					{{/each}}
 		    </div>
 		  </div>

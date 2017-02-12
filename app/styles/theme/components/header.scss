@@ -20,6 +20,10 @@
 
 		.nav-item {
 
+			&:hover {
+				cursor: pointer;
+			}
+
 			.fa {
 				margin-right: $space-default / 2;
 				font-size: 1.5em;

@@ -8,7 +8,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('association', { path: t('routes.association') });
+  this.route( 'association', { path: 'association' });
+  this.route('education');
 });
 
 export default Router;
