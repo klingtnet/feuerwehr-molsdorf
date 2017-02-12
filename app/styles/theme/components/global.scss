@@ -14,7 +14,7 @@ body {
 body {
   background-color: $body-bg;
 	background-image: url(http://www.shunvmall.com/data/out/18/47659643-background-images.jpg);
-  color: $text-color-default;
+  color: darken($text-color-default, $color-offset-default * 8);
   font-size: $text-fontSize-default;
 }
 

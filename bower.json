@@ -2,6 +2,8 @@
   "name": "feuerwehr-molsdorf",
   "dependencies": {
     "font-awesome": "~4.5.0",
-    "bootstrap": "~v4.0.0-alpha.2"
+    "bootstrap": "~v4.0.0-alpha.2",
+    "slick-carousel": "^1.6.0",
+    "ember": "^2.11.0"
   }
 }
