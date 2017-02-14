@@ -11,6 +11,25 @@
 	.content {
 		padding: $space-default * 3 0;
 		background: darken($color-default, $color-offset-default * 2);
+
+		a {
+			color: darken($text-color-default, 50%);
+
+			&:hover {
+				color: lighten($text-color-default, 100%);
+			}
+
+			.fa {
+				margin-right: $space-default / 2;
+			}
+
+		}
+
+		.text-together {
+			color: $brand-primary;
+	    font-size: $text-fontSize-default + .2;
+		}
+
 	}
 
 	.copyright {

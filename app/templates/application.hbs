@@ -6,20 +6,22 @@
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 
-			<a class="navbar-brand" href="/">
-				{{fa-icon "fire-extinguisher"}}
-				{{t "application.brand.short"}}
-				<div class="navbar-text">
-					<small class="hidden-xs-down">{{t "application.brand.description"}}</small>
+			{{#link-to "index" class="navbar-brand"}}
+				<small class="hidden-xs-down">{{fa-icon "fire-extinguisher"}}</small>
+				<small class="hidden-xs-up">
+					{{t "application.brand.short"}}
+				</small>
+				<div class="navbar-brand">
+					<small class="hidden-xs-down">{{t "application.brand.long"}}</small>
 				</div>
-			</a>
+			{{/link-to}}
 
 			<div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
 		    <div class="navbar-nav">
 					{{#each model.navigation as |item|}}
 						{{#link-to item.link class="nav-item nav-link"}}
-							{{fa-icon item.ico class="hidden-lg-down"}}
-							<span>{{t item.localization}}</span>
+							{{fa-icon item.ico}}
+							<span class="hidden-xs-down">{{t item.localization}}</span>
 						{{/link-to}}
 					{{/each}}
 		    </div>
@@ -43,12 +45,25 @@
 <footer class="footer">
 	<div class="content">
 		<div class="container text-center">
-			...
+
+			<div>
+				{{#each model.navigation as |item|}}
+					{{#link-to item.link class="btn btn-link"}}
+						{{fa-icon item.ico}}
+						<span class="hidden-xs-down">{{t item.localization}}</span>
+					{{/link-to}}
+				{{/each}}
+			</div>
+
+			<div class="text-together">
+				{{t "application.together"}}
+			</div>
+
 		</div>
 	</div>
 	<div class="copyright">
 		<div class="container text-center">
-			{{t "footer.copyright" copyrightTo=model.copyrightTo brand=(t 'application.brand.description')}}
+			{{t "footer.copyright" copyrightTo=model.copyrightTo brand=(t 'application.brand.long')}}
 		</div>
 	</div>
 </footer>
