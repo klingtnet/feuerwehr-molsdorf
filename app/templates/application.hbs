@@ -6,11 +6,8 @@
 
 	{{#link-to "index" class="navbar-brand"}}
 		{{fa-icon "fire-extinguisher"}}
-		<small class="hidden-xs-down">
-			{{t "application.brand.short"}}
-		</small>
 		<div class="navbar-brand">
-			<small>{{t "application.brand.long"}}</small>
+			<span>{{t "application.brand.long"}}</span>
 		</div>
 	{{/link-to}}
 
@@ -19,11 +16,12 @@
 			{{#each model.navigation as |item|}}
 				{{#link-to item.link class="nav-item nav-link"}}
 					{{fa-icon item.ico}}
-					<span class="hidden-xs-down">{{t item.localization}}</span>
+					{{t item.localization}}
 				{{/link-to}}
 			{{/each}}
 		</div>
   </div>
+	
 </nav>
 
 <div class="emergency">

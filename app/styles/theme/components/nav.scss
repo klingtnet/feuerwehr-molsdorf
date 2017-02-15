@@ -6,9 +6,11 @@
   background: darken($base-color, $color-offset-default * 2);
 
 	.navbar-brand {
+
 		.fa {
-			font-size: 1.3em;
+			font-size: $text-fontSize-default + .4;
 		}
+
 	}
 
 }
