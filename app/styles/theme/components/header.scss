@@ -1,52 +1,15 @@
 
 //
-// Header
+// Emergency
 
-.header {
+.emergency {
+	background: $brand-primary;
+	text-align: center;
+	padding: $space-default * 1 0;
 
-	.navbar {
-		background: $color-default;
-		font-size: $text-fontSize-default - 0.1;
-
-		.navbar-brand {
-			.navbar-text {
-				padding-top: 0;
-				padding-bottom: 0;
-			}
-			.fa {
-				font-size: 3em;
-			}
-		}
-
-		.nav-item {
-
-			&:hover {
-				cursor: pointer;
-			}
-
-			.fa {
-				margin-right: $space-default / 2;
-				font-size: 1.5em;
-			}
-
-		}
-
-		#navbarNav {
-				margin-top: 2em;
-		}
-
-	}
-
-	.emergency {
-		background: $brand-primary;
-		text-align: center;
-		padding: $space-default * 1 0;
-
-		.call {
-			font-size: $text-fontSize-default * 1;
-			color: lighten($text-color-default, 100%);
-		}
-
+	.call {
+		font-size: $text-fontSize-default * 1;
+		color: lighten($text-color-default, 100%);
 	}
 
 }

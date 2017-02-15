@@ -1,42 +1,37 @@
-<header class="header">
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
 
-	<nav class="navbar navbar-toggleable-md navbar-inverse">
-		<div class="container">
-			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
+	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-			{{#link-to "index" class="navbar-brand"}}
-				<small class="hidden-xs-down">{{fa-icon "fire-extinguisher"}}</small>
-				<small class="hidden-xs-up">
-					{{t "application.brand.short"}}
-				</small>
-				<div class="navbar-brand">
-					<small class="hidden-xs-down">{{t "application.brand.long"}}</small>
-				</div>
-			{{/link-to}}
-
-			<div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
-		    <div class="navbar-nav">
-					{{#each model.navigation as |item|}}
-						{{#link-to item.link class="nav-item nav-link"}}
-							{{fa-icon item.ico}}
-							<span class="hidden-xs-down">{{t item.localization}}</span>
-						{{/link-to}}
-					{{/each}}
-		    </div>
-		  </div>
+	{{#link-to "index" class="navbar-brand"}}
+		{{fa-icon "fire-extinguisher"}}
+		<small class="hidden-xs-down">
+			{{t "application.brand.short"}}
+		</small>
+		<div class="navbar-brand">
+			<small>{{t "application.brand.long"}}</small>
 		</div>
-	</nav>
+	{{/link-to}}
 
-	<div class="emergency">
-		<span class="call">
-			{{fa-icon "phone"}}
-			{{t "emergency.call"}}
-		</span>
-	</div>
+  <div class="collapse navbar-collapse flex-row-reverse" id="navbarCollapse">
+		<div class="nav navbar-nav">
+			{{#each model.navigation as |item|}}
+				{{#link-to item.link class="nav-item nav-link"}}
+					{{fa-icon item.ico}}
+					<span class="hidden-xs-down">{{t item.localization}}</span>
+				{{/link-to}}
+			{{/each}}
+		</div>
+  </div>
+</nav>
 
-</header>
+<div class="emergency">
+	<span class="call">
+		{{fa-icon "phone"}}
+		{{t "emergency.call"}}
+	</span>
+</div>
 
 <div class="application-content">
 	{{outlet}}
