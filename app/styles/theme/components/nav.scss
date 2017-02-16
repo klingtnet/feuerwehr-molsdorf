@@ -4,6 +4,7 @@
 
 .navbar {
   background: darken($color-default, $color-offset-default * 1);
+	margin-bottom: 0.1em;
 
 	.container {
 		@include media-breakpoint-down(xs) {
