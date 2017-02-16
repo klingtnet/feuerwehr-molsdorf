@@ -3,7 +3,7 @@
 // Nav
 
 .navbar {
-  background: darken($base-color, $color-offset-default * 2);
+  background: darken($color-default, $color-offset-default * 1);
 
 	.container {
 		@include media-breakpoint-down(xs) {
@@ -27,7 +27,7 @@
 			margin-right: $space-default / 2;
 			font-size: $text-fontSize-default * 1;
 		}
-		
+
 	}
 
 }

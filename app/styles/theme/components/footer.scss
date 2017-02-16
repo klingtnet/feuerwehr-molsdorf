@@ -3,11 +3,11 @@
 // Footer
 
 .footer {
-	background: $color-default;
+	background: lighten($color-default, $color-offset-default * 3);
 
 	.content {
+		background: darken($color-default, $color-offset-default * 1);
 		padding: $space-default * 3 0;
-		background: darken($color-default, $color-offset-default * 2);
 
 		a {
 			color: darken($text-color-default, 50%);
@@ -23,8 +23,8 @@
 		}
 
 		.text-together {
-			color: $brand-primary;
-	    font-size: $text-fontSize-default * 3;
+			color: $text-color-default;
+	    font-size: $text-fontSize-default * 2;
 		}
 
 	}

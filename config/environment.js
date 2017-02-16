@@ -22,7 +22,7 @@ module.exports = function(environment) {
 
     googleFonts: [
       'Open+Sans:300,400,700',
-      'Gudea:400'
+      'Gudea:100,400'
     ],
 
     // Set or update content security policies
