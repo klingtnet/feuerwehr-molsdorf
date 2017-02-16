@@ -22,20 +22,19 @@ export default Ember.Route.extend({
           localization: "navigation.education",
           link: "education",
           active: false
+        },
+        {
+          ico: "child",
+          localization: "navigation.youth",
+          link: "youth",
+          active: false
+        },
+        {
+          ico: "flag",
+          localization: "navigation.honor",
+          link: "honor",
+          active: false
         }
-        /*,
-        				{
-        	        ico: "child",
-        	        localization: "navigation.youth",
-        	        link: "youth",
-        	        active: false
-        	      },
-        				{
-        	        ico: "flag",
-        	        localization: "navigation.honor",
-        	        link: "honor",
-        	        active: false
-        	      }*/
       ],
       copyrightTo: new Date().getFullYear()
     });

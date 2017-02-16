@@ -4,7 +4,7 @@ export default {
       short: "FFWM",
       long: "Freiwillige Feuerwehr Molsdorf"
     },
-    together: "Gemeinsam miteinander für euch!"
+    together: "Gemeinsam für euch!"
   },
   navigation: {
     welcome: "Willkommen",

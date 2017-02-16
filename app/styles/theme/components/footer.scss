@@ -24,7 +24,7 @@
 
 		.text-together {
 			color: $brand-primary;
-	    font-size: $text-fontSize-default + .2;
+	    font-size: $text-fontSize-default * 3;
 		}
 
 	}
@@ -32,6 +32,7 @@
 	.copyright {
 		padding: $space-default * 3 0;
 		font-size: $text-fontSize-default - 0.2;
+		color: lighten($text-color-default, 100%);
 	}
 
 }

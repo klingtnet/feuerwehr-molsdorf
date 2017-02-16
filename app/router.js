@@ -7,10 +7,11 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('association', {
-    path: 'association'
-  });
+  this.route('association');
   this.route('education');
+  this.route('youth');
+  this.route('honor');
+  this.route('imprint');
 });
 
 export default Router;
