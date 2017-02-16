@@ -1,4 +1,11 @@
 
 section {
 	margin-bottom: $space-default * 3;
+
+	&.grey {
+    background-color: #f4f8fb;
+		padding: $space-default * 3 0;
+		margin-top: -$space-default * 3;
+	}
+
 }

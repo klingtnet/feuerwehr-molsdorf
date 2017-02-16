@@ -1,27 +1,28 @@
 <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+	<div class="container">
 
-	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
 
-	{{#link-to "index" class="navbar-brand"}}
-		{{fa-icon "fire-extinguisher"}}
-		<div class="navbar-brand">
-			<span>{{t "application.brand.long"}}</span>
-		</div>
-	{{/link-to}}
+		{{#link-to "index" class="navbar-brand"}}
+			{{fa-icon "fire-extinguisher"}}
+			<div class="navbar-brand">
+				<span>{{t "application.brand.long"}}</span>
+			</div>
+		{{/link-to}}
 
-  <div class="collapse navbar-collapse flex-row-reverse" id="navbarCollapse">
-		<div class="nav navbar-nav">
-			{{#each model.navigation as |item|}}
-				{{#link-to item.link class="nav-item nav-link"}}
-					{{fa-icon item.ico}}
-					{{t item.localization}}
-				{{/link-to}}
-			{{/each}}
-		</div>
-  </div>
-	
+	  <div class="collapse navbar-collapse flex-row-reverse" id="navbarCollapse">
+			<div class="nav navbar-nav">
+				{{#each model.navigation as |item|}}
+					{{#link-to item.link class="nav-item nav-link"}}
+						{{t item.localization}}
+					{{/link-to}}
+				{{/each}}
+			</div>
+	  </div>
+
+	</div>
 </nav>
 
 <div class="emergency">
@@ -42,8 +43,7 @@
 			<div>
 				{{#each model.navigation as |item|}}
 					{{#link-to item.link class="btn btn-link"}}
-						{{fa-icon item.ico}}
-						<span class="hidden-xs-down">{{t item.localization}}</span>
+						{{t item.localization}}
 					{{/link-to}}
 				{{/each}}
 			</div>

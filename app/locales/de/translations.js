@@ -24,5 +24,8 @@ export default {
     department: "einsatzabteilung",
     youthfiredepartment: "jugendfeuerwehr",
     honorarydepartment: "Ehrenabteilung"
+  },
+  general: {
+    details: "Details anschauen »"
   }
 };

@@ -14,25 +14,34 @@
 
 </section>
 
-<section class="container">
+<section class="grey">
+	<div class="container">
 
-	<div class="row">
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-    </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-   </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-    </div>
-  </div>
+		<div class="row">
+	    <div class="col-md-4">
+	      <h2>Förderverein</h2>
+	      <p>Der Förderverein der Freiwilligen Feuerwehr Erfurt-Molsdorf e.V. wurde am 29. September 2001 gegründet.</p>
+				{{#link-to "association" class="btn btn-secondary"}}
+					{{t 'general.details'}}
+				{{/link-to}}
+	    </div>
+	    <div class="col-md-4">
+	      <h2>Jugendfeuerwehr</h2>
+	      <p>Es ist uns ein Anliegen den Kindern und Jugendlichen schon frühzeitig alles rund um die Feuerwehr nah zu bringen. Darunter fällt unter anderem das richtige Verhalten bei einem Brand, wie setze ich einen Notruf ab oder wie gehe ich richtig mit dem Element Feuer um.</p>
+				{{#link-to "youth" class="btn btn-secondary"}}
+					{{t 'general.details'}}
+				{{/link-to}}
+	   </div>
+	    <div class="col-md-4">
+	      <h2>Ehrenabteilung</h2>
+	      <p>Die Alters- und Ehrenabteilung der FF EF-Molsdorf umfasst derzeit 8 Mitglieder. Im Rahmen ihrer Möglichkeiten leisten sie bei Öffentlichkeitsveranstaltungen wie dem Osterfeuer oder dem Weihnachtsmarkt, einen wertvollen Beitrag.</p>
+				{{#link-to "honor" class="btn btn-secondary"}}
+					{{t 'general.details'}}
+				{{/link-to}}
+	    </div>
+	  </div>
+
+	</div>
 </section>
 
 {{outlet}}

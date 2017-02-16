@@ -5,12 +5,29 @@
 .navbar {
   background: darken($base-color, $color-offset-default * 2);
 
+	.container {
+		@include media-breakpoint-down(xs) {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+
 	.navbar-brand {
 
 		.fa {
+			margin-right: $space-default / 2;
 			font-size: $text-fontSize-default + .4;
 		}
 
+	}
+
+	.navbar-nav {
+
+		.fa {
+			margin-right: $space-default / 2;
+			font-size: $text-fontSize-default * 1;
+		}
+		
 	}
 
 }
