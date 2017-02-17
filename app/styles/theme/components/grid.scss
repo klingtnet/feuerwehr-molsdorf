@@ -1,0 +1,18 @@
+
+@include media-breakpoint-down(sm) {
+
+	.row {
+
+		[class^="col-"] {
+			margin-bottom: $space-default * 3;
+			padding-top: $space-default * 3;
+
+			& ~ [class^="col-"] {
+				@include border-top();
+			}
+
+		}
+
+	}
+
+}

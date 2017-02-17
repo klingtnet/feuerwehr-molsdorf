@@ -26,3 +26,15 @@ a {
 	}
 
 }
+
+@include media-breakpoint-down(md) {
+	h2 {
+		font-size: $font-size-h2 - .4;
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	h2 {
+		font-size: $font-size-h2;
+	}
+}
