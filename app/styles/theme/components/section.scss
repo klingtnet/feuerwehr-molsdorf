@@ -3,7 +3,8 @@ section {
 	margin-bottom: $space-default * 6;
 
 	&.grey {
-    background-color: #f4f8fb;
+    // background-color: #f4f8fb;
+		@include gradient-v(lighten(#f4f8fb, $color-offset-default), #f4f8fb);
 		padding: $space-default * 6 0;
 		margin-top: -$space-default * 6;
 	}
