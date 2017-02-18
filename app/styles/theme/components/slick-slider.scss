@@ -9,17 +9,31 @@
 		font-family: 'Homemade Apple';
 
 		.headline {
-			margin: $space-default * 3 0 $space-default $space-default * 6;
+			margin: $space-default * 4 0 $space-default $space-default * 6;
 			font-size: $text-fontSize-default * 4;
 			color: lighten($text-color-default, 100%);
+
+			@include media-breakpoint-down(sm) {
+				margin: $space-default * 4 0 $space-default $space-default * 6;
+				font-size: $text-fontSize-default * 4;
+			}
+			@include media-breakpoint-down(xs) {
+				margin: $space-default * 8 0 $space-default $space-default * 3;
+				font-size: $text-fontSize-default * 2;
+			}
+
 		}
 
 		.text {
 			display: block;
 			margin-left: $space-default * 6;
-			font-size: $text-fontSize-default * 2;
+			font-size: $text-fontSize-default * 1.7;
 			color: lighten($text-color-default, 100%);
-			width: 70%;
+
+			@include media-breakpoint-down(sm) {
+				font-size: $text-fontSize-default;
+			}
+
 		}
 
 	}
