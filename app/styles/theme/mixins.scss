@@ -115,3 +115,14 @@
 @mixin text($c: $text-color-default) {
 	color: $c;
 }
+
+
+//
+// Horizontal Gradient
+@mixin gradient($colorStart, $colorEnd) {
+	background: $colorStart;
+	background: -moz-linear-gradient(left,  $colorStart 0%, $colorEnd 100%);
+	background: -webkit-linear-gradient(left,  $colorStart 0%,$colorEnd 100%);
+	background: linear-gradient(to right,  $colorStart 0%,$colorEnd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$colorStart', endColorstr='$colorEnd',GradientType=1 );
+}
