@@ -5,6 +5,23 @@
 
 	.box {
 		height: 300px;
+		background-position: center;
+		font-family: 'Homemade Apple';
+
+		.headline {
+			margin: $space-default * 3 0 $space-default $space-default * 6;
+			font-size: $text-fontSize-default * 4;
+			color: lighten($text-color-default, 100%);
+		}
+
+		.text {
+			display: block;
+			margin-left: $space-default * 6;
+			font-size: $text-fontSize-default * 2;
+			color: lighten($text-color-default, 100%);
+			width: 70%;
+		}
+
 	}
 
 }
