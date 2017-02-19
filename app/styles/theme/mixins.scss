@@ -74,10 +74,18 @@
 	border-left: $w $style $color;
 }
 @mixin border-all($color: $border-color-default, $style: $border-style-default, $w: $border-width-default) {
+	@include border-left($color, $style, $w);
 	@include border-top($color, $style, $w);
 	@include border-right($color, $style, $w);
 	@include border-bottom($color, $style, $w);
+}
+@mixin border-top-bottom($color: $border-color-default, $style: $border-style-default, $w: $border-width-default) {
+	@include border-top($color, $style, $w);
+	@include border-bottom($color, $style, $w);
+}
+@mixin border-left-right($color: $border-color-default, $style: $border-style-default, $w: $border-width-default) {
 	@include border-left($color, $style, $w);
+	@include border-right($color, $style, $w);
 }
 @mixin border-transparent($w: $border-width-default) {
 	border: $w solid transparent;
