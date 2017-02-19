@@ -3,16 +3,11 @@
 	@include clearfix();
 
 	h2 {
-		margin-bottom: $space-default * 1;
-	}
-	h3 {
-		font-size: $text-fontSize-default + .4;
+		margin-bottom: .28em;
+		line-height: .9em;
 	}
 
-	.event {
-		@include border-left(lighten($border-color-default, $color-offset-default * 3), $border-style-default, $border-width-default * 3);
-	}
-
+	p,
 	[class^="col"] {
 		margin-bottom: 0;
 	}
@@ -26,6 +21,23 @@
 
 	.month {
 		font-size: 2em;
+
+		@include media-breakpoint-down(sm) {
+			@include border-bottom();
+			margin-bottom: $space-default;
+		}
+
+	}
+
+	@include media-breakpoint-down(sm) {
+		text-align: center;
+	}
+
+	@include media-breakpoint-down(xs) {
+		[class^="col"] {
+			border: 0;
+	    padding-bottom: 0;
+		}
 	}
 
 }

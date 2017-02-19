@@ -46,7 +46,7 @@ $text-color-danger:   darken($color-danger, 50%);
 // Borders
 
 $border-width-default: 1px;
-$border-color-default: lighten($color-default, $color-offset-default * 10);
+$border-color-default: lighten($color-default, $color-offset-default * 13);
 $border-style-default: solid;
 $round-border-radius-default: 3px;
 
