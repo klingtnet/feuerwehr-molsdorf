@@ -37,15 +37,38 @@
 </div>
 
 <footer class="footer">
+
 	<div class="content">
 		<div class="container text-center">
 
-			<div>
+			<div class="nav d-flex justify-content-center">
 				{{#each model.navigation as |item|}}
 					{{#link-to item.link class="btn btn-link"}}
 						{{t item.localization}}
 					{{/link-to}}
 				{{/each}}
+			</div>
+
+			<div class="links">
+				<div class="row">
+					<div class="col">
+						<div>
+							{{#link-to "imprint" class="btn btn-link"}}
+								{{t "footer.imprint"}}
+							{{/link-to}}
+						</div>
+						<div>
+							{{#link-to "dataprotection" class="btn btn-link"}}
+								{{t "footer.dataprotection"}}
+							{{/link-to}}
+						</div>
+						<div>
+							{{#link-to "disclaimer" class="btn btn-link"}}
+								{{t "footer.disclaimer"}}
+							{{/link-to}}
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<div class="text-together">
@@ -54,9 +77,11 @@
 
 		</div>
 	</div>
+
 	<div class="copyright">
 		<div class="container text-center">
 			{{t "footer.copyright" copyrightTo=model.copyrightTo brand=(t 'application.brand.long')}}
 		</div>
 	</div>
+
 </footer>

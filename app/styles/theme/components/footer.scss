@@ -10,7 +10,7 @@
 		padding: $space-default * 3 0;
 
 		a {
-			color: darken($text-color-default, 50%);
+			color: lighten($text-color-default, 100%);
 
 			&:hover {
 				color: lighten($text-color-default, 100%);
@@ -32,6 +32,15 @@
 	.copyright {
 		padding: $space-default * 3 0;
 		font-size: $text-fontSize-default - 0.2;
+		color: lighten($text-color-default, 100%);
+	}
+
+	.nav {
+		margin-bottom: $space-default * 2;
+	}
+
+	.links {
+		text-align: left;
 		color: lighten($text-color-default, 100%);
 	}
 

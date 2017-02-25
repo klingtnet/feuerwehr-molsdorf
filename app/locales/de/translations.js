@@ -14,7 +14,10 @@ export default {
     honor: "Ehrenabteilung"
   },
   footer: {
-    copyright: "&copy; 2016 - {{copyrightTo}} | {{brand}}"
+    copyright: "&copy; 2016 - {{copyrightTo}} | {{brand}}",
+    imprint: "Impressum",
+    dataprotection: "Datenschutz",
+    disclaimer: "Haftungsausschluss"
   },
   emergency: {
     call: "Notruf 112"

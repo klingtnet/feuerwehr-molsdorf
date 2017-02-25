@@ -26,6 +26,14 @@ a {
 
 }
 
+h2 {
+	margin-bottom: $space-default * 2;
+}
+
+h3 {
+	font-size: $font-size-h3 - .4;
+}
+
 @include media-breakpoint-down(md) {
 	h2 {
 		font-size: $font-size-h2 - .4;

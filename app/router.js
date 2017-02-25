@@ -12,6 +12,8 @@ Router.map(function() {
   this.route('youth');
   this.route('honor');
   this.route('imprint');
+  this.route('disclaimer');
+  this.route('dataprotection');
 });
 
 export default Router;
