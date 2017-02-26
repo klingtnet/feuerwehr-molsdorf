@@ -1,6 +1,6 @@
 
 $font-family-base: 'Gudea', sans-serif;
-$brand-primary: #a93103;
+$brand-primary: #dc3d00;
 //$body-bg: $brand-primary;
 
 //
@@ -14,7 +14,7 @@ $color-offset-default: 5%;
 $base-color: #2d343a;									// ( Grey )
 
 $color-default:	  	$base-color;   	  // Default ( Base )
-$color-primary:	  	$color-default;   // Primary
+$color-primary:	  	$brand-primary;   // Primary
 $color-info:      	$color-default;		// Info
 $color-success:	  	$color-default;		// Success
 $color-warning:	  	$color-default;		// Warning
@@ -35,7 +35,7 @@ $text-fontSize-default: .85rem;
 $text-lineHeight-default: 1rem;
 
 $text-color-default:  lighten($color-default, 100%);
-$text-color-primary:  darken($color-primary, 0%);
+$text-color-primary:  darken($color-default, 0%);
 $text-color-info:     darken($color-info, 50%);
 $text-color-success:  darken($color-success, 40%);
 $text-color-warning:  darken($color-warning, 50%);
@@ -71,3 +71,10 @@ $shadow-size: $space-default;
 $shadow-pos-left: 0px;
 $shadow-pos-top: 0px;
 $shadow-weight: 0px;
+
+
+// Buttons
+
+$btn-primary-color: lighten($brand-primary, 100%);
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: darken($brand-primary, 5%);

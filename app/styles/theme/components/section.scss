@@ -10,7 +10,7 @@ section {
 	}
 
 	&.highlight {
-    @include gradient-h(lighten(#f4f8fb, $color-offset-default), #f4f8fb);
+    @include gradient-h(lighten(#f4f8fb, $color-offset-default), #fdfcc1);
 		padding: $space-default * 6 0;
 		@include border-top-bottom();
 

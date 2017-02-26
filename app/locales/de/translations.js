@@ -29,6 +29,6 @@ export default {
     honorarydepartment: "Ehrenabteilung"
   },
   general: {
-    details: "Details anschauen »"
+    details: "Mehr erfahren »"
   }
 };
