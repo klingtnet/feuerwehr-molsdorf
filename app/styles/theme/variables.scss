@@ -1,7 +1,7 @@
 
 $font-family-base: 'Gudea', sans-serif;
 $brand-primary: #dc3d00;
-//$body-bg: $brand-primary;
+$body-bg: #f7faff;
 
 //
 // Color Offsets
@@ -35,7 +35,7 @@ $text-fontSize-default: .85rem;
 $text-lineHeight-default: 1rem;
 
 $text-color-default:  lighten($color-default, 100%);
-$text-color-primary:  darken($color-default, 0%);
+$text-color-primary:  darken($color-primary, 0%);
 $text-color-info:     darken($color-info, 50%);
 $text-color-success:  darken($color-success, 40%);
 $text-color-warning:  darken($color-warning, 50%);

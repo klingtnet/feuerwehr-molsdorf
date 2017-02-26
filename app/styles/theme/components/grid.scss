@@ -1,9 +1,12 @@
 
 .row {
 
+	& ~ .row {
+		margin-top: $space-default * 6;
+	}
+
 	[class^="col"] {
-		margin-bottom: $space-default * 6;
-		
+
 		@include media-breakpoint-down(xs) {
 			@include border-bottom();
 			padding-bottom: $space-default * 6;

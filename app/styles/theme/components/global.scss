@@ -13,7 +13,6 @@ body {
 body {
   background-color: darken($body-bg, $color-offset-default / 2);
 	background-image: url(http://www.shunvmall.com/data/out/18/47659643-background-images.jpg);
-  color: $text-color-primary;
   font-size: $text-fontSize-default;
 }
 
@@ -32,6 +31,9 @@ h2 {
 
 h3 {
 	font-size: $font-size-h3 - .4;
+	color: $text-color-primary;
+	@include border-left($text-color-primary, $border-style-default, $border-width-default * 2);
+	padding: $space-default / 2 0 $space-default / 2 $space-default;
 }
 
 @include media-breakpoint-down(md) {
@@ -44,4 +46,35 @@ h3 {
 	h2 {
 		font-size: $font-size-h2;
 	}
+}
+
+//
+// Lists
+ul {
+  list-style: none;
+  padding: 0;
+
+	li {
+		padding-left: 1.3em;
+
+		&:before {
+			content: "\f00c";
+			font-family: FontAwesome;
+			display: inline-block;
+			margin-left: -1.3em;
+			width: 1.3em;
+		}
+
+		li {
+			&:before {
+				content: "\f0da";
+				font-family: FontAwesome;
+				display: inline-block;
+				margin-left: -1.3em;
+				width: 1.3em;
+			}
+		}
+
+	}
+
 }

@@ -2,8 +2,12 @@
 .events {
 	@include clearfix();
 
+	// .row.event {
+	// 	@include clearfix();
+	// 	margin-bottom: $space-default * 6;
+	// }
+
 	h2 {
-		margin-bottom: .28em;
 		line-height: .9em;
 	}
 

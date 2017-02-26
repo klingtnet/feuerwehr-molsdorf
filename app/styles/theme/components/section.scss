@@ -1,21 +1,22 @@
 
 section {
-	margin-bottom: $space-default * 6;
+
+	& ~ section {
+		margin-top: $space-default * 6;
+	}
 
 	&.grey {
-    // background-color: #f4f8fb;
 		@include gradient-v(lighten(#f4f8fb, $color-offset-default), #f4f8fb);
 		padding: $space-default * 6 0;
-		margin-top: -$space-default * 6;
 	}
 
 	&.highlight {
-    @include gradient-h(lighten(#f4f8fb, $color-offset-default), #c1f2fd);
 		padding: $space-default * 6 0;
+    @include gradient-v(lighten(#f4f8fb, $color-offset-default), #A2CBFF);
 		@include border-top-bottom();
 
 		h2 {
-			// margin-bottom: -$space-default;
+			margin-bottom: $space-default;
 		}
 
 	}
