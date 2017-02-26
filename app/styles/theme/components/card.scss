@@ -3,6 +3,7 @@
 // Card
 
 .card {
+	background-color: darken($body-bg, $color-offset-default / 4);
 
 	.fa {
 		margin-right: $space-default;
