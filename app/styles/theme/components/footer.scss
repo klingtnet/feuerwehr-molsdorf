@@ -16,6 +16,10 @@
 				color: lighten($text-color-default, 100%);
 			}
 
+			& ~ a {
+				@include border-left(darken($border-color-default, $color-offset-default * 10), $border-style-default, $border-width-default);
+			}
+
 			.fa {
 				margin-right: $space-default / 2;
 			}
@@ -25,6 +29,7 @@
 		.text-together {
 			color: $text-color-default;
 	    font-size: $text-fontSize-default * 2;
+			margin-bottom: $space-default;
 		}
 
 	}
