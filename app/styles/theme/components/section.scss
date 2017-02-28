@@ -12,7 +12,8 @@ section {
 
 	&.highlight {
 		padding: $space-default * 6 0;
-    @include gradient-v(lighten(#f4f8fb, $color-offset-default), #A2CBFF);
+    // @include gradient-v(lighten(#f4f8fb, $color-offset-default), #A2CBFF);
+		background: lighten($body-bg, 100%);
 		@include border-top-bottom();
 
 		h2 {
