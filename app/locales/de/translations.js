@@ -11,7 +11,10 @@ export default {
     association: "Verein",
     education: "Einsatzabteilung",
     youth: "Jugendfeuerwehr",
-    honor: "Ehrenabteilung"
+    honor: "Ehrenabteilung",
+    timetable: "Dienstplan",
+    technology: "Technik",
+    members: "Mitglieder"
   },
   footer: {
     copyright: "&copy; 2016 - {{copyrightTo}} | {{brand}}",
