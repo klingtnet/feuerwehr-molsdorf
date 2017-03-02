@@ -3,7 +3,7 @@
 
 		<div class="row">
 			<div class="col-md-6">
-				<div class="card">
+				<div class="card {{if model.january 'current-month'}}">
 					<div class="card-header">Januar</div>
 					<div class="card-block">
 						<ul>
@@ -26,7 +26,7 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<div class="card">
+				<div class="card {{if model.february 'current-month'}}">
 					<div class="card-header">Februar</div>
 					<div class="card-block">
 						<ul>
@@ -48,7 +48,7 @@
 
 		<div class="row">
 			<div class="col-md-6">
-				<div class="card">
+				<div class="card {{if model.march 'current-month'}}">
 					<div class="card-header">März</div>
 					<div class="card-block">
 						<ul>
@@ -66,7 +66,7 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<div class="card">
+				<div class="card {{if model.april 'current-month'}}">
 					<div class="card-header">April</div>
 					<div class="card-block">
 						<ul>
@@ -89,7 +89,7 @@
 
 		<div class="row">
 			<div class="col-md-6">
-				<div class="card">
+				<div class="card {{if model.may 'current-month'}}">
 					<div class="card-header">Mai</div>
 					<div class="card-block">
 						<ul>
@@ -109,7 +109,7 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<div class="card">
+				<div class="card {{if model.june 'current-month'}}">
 					<div class="card-header">Juni</div>
 					<div class="card-block">
 						<ul>
@@ -133,7 +133,15 @@
 
 		<div class="row">
 			<div class="col-md-6">
-				<div class="card">
+				<div class="card {{if model.juli 'current-month'}}">
+					<div class="card-header">Juli</div>
+					<div class="card-block">
+						Keine Dienste
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card {{if model.august 'current-month'}}">
 					<div class="card-header">August</div>
 					<div class="card-block">
 						<ul>
@@ -150,8 +158,11 @@
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-6">
-				<div class="card">
+				<div class="card {{if model.september 'current-month'}}">
 					<div class="card-header">September</div>
 					<div class="card-block">
 						<ul>
@@ -169,11 +180,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-6">
-				<div class="card">
+				<div class="card {{if model.october 'current-month'}}">
 					<div class="card-header">Oktober</div>
 					<div class="card-block">
 						<ul>
@@ -191,8 +199,11 @@
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-6">
-				<div class="card">
+				<div class="card {{if model.november 'current-month'}}">
 					<div class="card-header">November</div>
 					<div class="card-block">
 						<ul>
@@ -210,11 +221,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-6">
-				<div class="card">
+				<div class="card {{if model.december 'current-month'}}">
 					<div class="card-header">Dezember</div>
 					<div class="card-block">
 						<ul>

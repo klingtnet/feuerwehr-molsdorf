@@ -9,4 +9,13 @@
 		margin-right: $space-default;
 	}
 
+	&.current-month {
+
+		.card-block {
+			background-color: darken($card-cap-bg, $color-offset-default * 10);
+			color: lighten($text-color-default, 100%);
+		}
+
+	}
+
 }
