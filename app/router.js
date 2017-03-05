@@ -13,11 +13,16 @@ Router.map(function() {
     this.route('technology');
     this.route('members');
   });
-  this.route('youth');
+  this.route('youth', function() {
+    this.route('department');
+    this.route('child-fire-brigade');
+  });
   this.route('honor');
   this.route('imprint');
   this.route('disclaimer');
   this.route('dataprotection');
+  this.route('child-fire-brigade');
+  this.route('youth-fire-department');
 });
 
 export default Router;
