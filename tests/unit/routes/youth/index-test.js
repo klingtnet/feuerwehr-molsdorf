@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:child-fire-brigade', 'Unit | Route | child fire brigade', {
+moduleFor('route:youth/index', 'Unit | Route | youth/index', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });

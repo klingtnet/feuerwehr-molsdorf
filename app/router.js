@@ -21,8 +21,6 @@ Router.map(function() {
   this.route('imprint');
   this.route('disclaimer');
   this.route('dataprotection');
-  this.route('child-fire-brigade');
-  this.route('youth-fire-department');
 });
 
 export default Router;
