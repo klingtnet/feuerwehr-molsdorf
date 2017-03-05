@@ -48,9 +48,9 @@
           <div class="card-header">Jugendfeuerwehr <strong>AK 10-18</strong></div>
           <div class="card-block">
             <p>Auf den folgenden Seiten werden Sie über die Arbeit der Jugenfeuerwehr EF-Molsdorf, Altersklasse 10 bis 18-Jährige informiert.</p>
-            <button {{action "showYouthDepartment"}} class="btn btn-primary">
-              {{t 'general.details'}}
-            </button>
+            {{#link-to "youth.department" class="btn btn-primary"}}
+              {{t "general.details"}}
+            {{/link-to}}
           </div>
         </div>
       </div>
@@ -59,9 +59,9 @@
           <div class="card-header">Kinderfeuerwehr <strong>AK 6-9</strong></div>
           <div class="card-block">
             <p>Auf den folgenden Seiten werden Sie über die Arbeit der Jugenfeuerwehr EF-Molsdorf, Altersklasse 6 bis 9-Jährige informiert.</p>
-            <button {{action "showChildFireBrigade"}} class="btn btn-primary">
-              {{t 'general.details'}}
-            </button>
+            {{#link-to "youth.child-fire-brigade" class="btn btn-primary"}}
+              {{t "general.details"}}
+            {{/link-to}}
           </div>
         </div>
       </div>
