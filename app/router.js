@@ -8,13 +8,15 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('association');
-  this.route('education', function() {
+  this.route('operation', function() {
     this.route('timetable');
     this.route('technology');
     this.route('members');
   });
   this.route('youth', function() {
-    this.route('department');
+    this.route('department', function() {
+      this.route('education');
+    });
     this.route('child-fire-brigade');
   });
   this.route('honor');

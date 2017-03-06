@@ -19,8 +19,8 @@ export default Ember.Route.extend({
         },
         {
           ico: "truck",
-          localization: "navigation.education",
-          link: "education",
+          localization: "navigation.operation",
+          link: "operation",
           active: false
         },
         {

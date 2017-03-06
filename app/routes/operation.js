@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
 
   beforeModel() {
-    this.transitionTo('education.timetable');
+    this.transitionTo('operation.timetable');
   }
 
 });

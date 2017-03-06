@@ -9,8 +9,10 @@ export default {
   navigation: {
     welcome: "Willkommen",
     association: "Verein",
-    education: "Einsatzabteilung",
+    operation: "Einsatzabteilung",
     youth: "Jugendfeuerwehr",
+    education: "Ausbildung",
+    childfirebrigade: "Kinderfeuerwehr",
     honor: "Ehrenabteilung",
     timetable: "Dienstplan",
     technology: "Technik",

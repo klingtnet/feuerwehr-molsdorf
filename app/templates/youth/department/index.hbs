@@ -1,0 +1,83 @@
+<section> 
+ 
+  {{#slick-slider autoplay=true arrows=false fade=true speed=500}} 
+    <div class="box" style="background-image: url(/img/main-1.jpg);"> 
+      <div class="container"> 
+        <h2 class="headline">Sei dabei!</h2> 
+        <p class="text">Mach mit im Förderverein der<br/>freiwilligen Feuerwehr Erfurt-Molsdorf.</p> 
+      </div> 
+    </div> 
+    <div class="box" style="background-image: url(/img/main-2.jpg);"> 
+      <div class="container"> 
+        <h2 class="headline">Unsere Jugend</h2> 
+        <p class="text">Lerne alles rund um die Feuerwehr.</p> 
+      </div> 
+    </div> 
+    <div class="box" style="background-image: url(/img/main-3.jpg);"> 
+      <div class="container"> 
+        <h2 class="headline">Ehrenabteilung</h2> 
+        <p class="text">Einen wehrtvoller Beitrag leisten.</p> 
+      </div> 
+    </div> 
+  {{/slick-slider}} 
+ 
+</section> 
+ 
+<section> 
+  <div class="container"> 
+    <h2>{{t 'navigation.youth'}} <strong>AK 10-18</strong></h2> 
+  </div> 
+</section>
+
+<section>
+	<div class="container">
+		<div class="nav nav-pills nav-fill" role="tablist">
+		  <div class="nav-item">
+				{{#link-to "youth.department.education" class="nav-link btn-lg"}}
+					{{t "navigation.education"}}
+				{{/link-to}}
+		  </div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+    <div class="card">
+      <h4 class="card-header">Freizeitfahrten</h4>
+      <div class="card-block">
+        <p class="card-text">Um den Kindern und Jugendlichen ein wenig Abwechslung zu verschaffen, führen wir jedes Jahr eine Freizeitfahrt durch. Wir haben schon verschiedene Orte in Thüringen wie Finsterbergen, Burgtonna, Friedrichroda, Beichlingen, Sonneberg und Tabarz besucht. Bei diesen Fahrten lassen wir die Arbeit der Feuerwehr außen vor. Neben diesen Fahrten besuchten wir auch schon mehrmals unsere Partnerjugendfeuerwehr aus Oberbeisheim, wo wir immer viel Spaß haben.</p>
+      </div>
+	  </div>
+	</div>
+</section>
+
+{{#each model.news as |article|}}
+  <section> 
+    <div class="container"> 
+      <div class="card">
+        <h4 class="card-header">{{article.title}}</h4>
+        <div class="card-block">
+          <div class="row"> 
+            <div class="col-md-12"> 
+              <p>{{article.description}}</p> 
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section> 
+{{/each}}
+
+<section class="highlight">
+	<div class="container">
+		<h2>Förderung bei der Sparkasse Mittelthüringen</h2>
+		<p>
+			<p><strong>Die Jugendfeuerwehr Erfurt-Molsdorf bedankt sich für die diesjährige Förderung bei der Sparkasse Mittelthüringen.</strong></p>
+      <p>Wir beschafften einen Kriechtunnel zur Wettbewerbsvorbereitung für unsere alljährlichen Wettbewerbe im Bundeswettbewerb, um unter realen Bedingungen trainieren zu können. Unsere Jugendfeuerwehr startet jedes Jahr im Stadtausscheid der Erfurter Jugendfeuerwehren und ist mit 28 Kindern und Jugendlichen eine der größten Jugendfeuerwehren in Erfurt.</p>
+      <p>Zudem vertreten wir seit 2002 regelmäßig alle 2 Jahre die Landeshauptstadt Erfurt zum Landesausscheid der Thüringer Jugendfeuerwehren. Die Kinder und Jugendlichen sind mit großer Begeisterung und Engagement bei der Sache, deshalb ist es uns ein Anliegen den Kinder und Jugendlichen bestmögliche und reale Trainingsbedingungen zu schaffen. In unserem 530 Einwohner zählenden Dorf ist die Jugendfeuerwehr die einzig verbliebene Kinder- und Jugendarbeit. Um diese aufrechterhalten zu können, sind wir auf Spenden und Förderungen wie die der Sparkasse Mittelthüringen angewiesen! Vielen herzlichen Dank für Ihre Unterstützung!!!</p>
+		</p>
+	</div>
+</section>
+
+{{outlet}}
