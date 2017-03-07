@@ -16,7 +16,8 @@ export default {
     honor: "Ehrenabteilung",
     timetable: "Dienstplan",
     technology: "Technik",
-    members: "Mitglieder"
+    members: "Mitglieder",
+    timeline: "Chronik"
   },
   footer: {
     copyright: "&copy; 2016 - {{copyrightTo}} | {{brand}}",

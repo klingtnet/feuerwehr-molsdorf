@@ -16,6 +16,7 @@ Router.map(function() {
   this.route('youth', function() {
     this.route('department', function() {
       this.route('education');
+      this.route('timeline');
     });
     this.route('child-fire-brigade');
   });
