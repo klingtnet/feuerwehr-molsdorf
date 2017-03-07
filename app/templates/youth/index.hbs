@@ -44,59 +44,96 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
+        
         <div class="card">
           <div class="card-header">{{t 'navigation.youth'}} <strong>AK 10-18</strong></div>
           <div class="card-block">
             <p>Auf den folgenden Seiten werden Sie über die Arbeit der Jugenfeuerwehr EF-Molsdorf, Altersklasse 10 bis 18-Jährige informiert.</p>
-            <h5>{{t 'navigation.members'}}</h5>
-            <ul>
-              {{#each model.youth_members as |member|}}
-                <li>
-                  <strong>{{member.name}}</strong> ( {{member.role}} )
-                </li>
-							{{/each}}
-						</ul>
-            <h5>{{t 'navigation.timetable'}}</h5>
-            <ul>
-              {{#each model.youth_timetable as |data|}}
-                <li>
-                  <strong>{{data.date}}</strong> - {{data.time}} - {{data.description}}
-                </li>
-							{{/each}}
-						</ul>
-            {{#link-to "youth.department" class="btn btn-primary"}}
-              {{t "general.details"}}
-            {{/link-to}}
+
+            <div class="row">
+              <div class="col-md-12">
+                <h4>{{t 'navigation.timetable'}}</h4>
+                <div class="list-group">
+                  {{#each model.youth_timetable as |data|}}
+                    <div class="list-group-item justify-content-between">
+                      <div><strong>{{data.date}}</strong> - {{data.time}}</div><span>{{data.description}}</span>
+                    </div>
+                  {{/each}}
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-12">
+                <h4>{{t 'navigation.members'}}</h4>
+                <div class="list-group">
+                  {{#each model.youth_members as |member|}}
+                    <div class="list-group-item justify-content-between">
+                      <strong>{{member.name}}</strong>
+                      <span class="badge badge-default badge-pill">{{member.role}}</span>
+                    </div>
+                  {{/each}}
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                {{#link-to "youth.department" class="btn btn-primary"}}
+                  {{t "general.details"}}
+                {{/link-to}}
+              </div>
+            </div>
+
           </div>
         </div>
+
       </div>
       <div class="col-md-6">
+
         <div class="card">
           <div class="card-header">{{t 'navigation.childfirebrigade'}} <strong>AK 6-9</strong></div>
           <div class="card-block">
             <p>Auf den folgenden Seiten werden Sie über die Arbeit der Jugenfeuerwehr EF-Molsdorf, Altersklasse 6 bis 9-Jährige informiert.</p>
-            <h5>{{t 'navigation.members'}}</h5>
-            <ul>
-              {{#each model.child_members as |member|}}
-                <li>
-                  <strong>{{member.name}}</strong> ( {{member.role}} )
-                </li>
-							{{/each}}
-						</ul>
-            <h5>{{t 'navigation.timetable'}}</h5>
-            <ul>
-              {{#each model.child_timetable as |data|}}
-                <li>
-                  <strong>{{data.date}}</strong> - {{data.time}} - {{data.description}}
-                </li>
-							{{/each}}
-						</ul>
-            {{#link-to "youth.child-fire-brigade" class="btn btn-primary"}}
-              {{t "general.details"}}
-            {{/link-to}}
+              
+            <div class="row">
+              <div class="col-md-12">
+                <h4>{{t 'navigation.timetable'}}</h4>
+                <div class="list-group">
+                  {{#each model.child_timetable as |data|}}
+                    <div class="list-group-item justify-content-between">
+                      <strong>{{data.date}}</strong> - {{data.time}} - {{data.description}}
+                    </div>
+                  {{/each}}
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-12">
+                <h4>{{t 'navigation.members'}}</h4>
+                <div class="list-group">
+                  {{#each model.child_members as |member|}}
+                    <div class="list-group-item justify-content-between">
+                      <strong>{{member.name}}</strong> ( {{member.role}} )
+                    </div>
+                  {{/each}}
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-12">
+                {{#link-to "youth.child-fire-brigade" class="btn btn-primary"}}
+                  {{t "general.details"}}
+                {{/link-to}}
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
