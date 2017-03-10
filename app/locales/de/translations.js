@@ -36,5 +36,8 @@ export default {
   },
   general: {
     details: "Mehr erfahren »"
+  },
+  challenges: {
+    place: '. Platz'
   }
 };
