@@ -17,7 +17,8 @@ export default {
     timetable: "Dienstplan",
     technology: "Technik",
     members: "Mitglieder",
-    timeline: "Chronik"
+    timeline: "Chronik",
+    freetime: "Freizeit"
   },
   footer: {
     copyright: "&copy; 2016 - {{copyrightTo}} | {{brand}}",

@@ -17,8 +17,13 @@ Router.map(function() {
     this.route('department', function() {
       this.route('education');
       this.route('timeline');
+      this.route('freetime');
     });
-    this.route('child-fire-brigade');
+    this.route('child-fire-brigade', function() {
+      this.route('education');
+      this.route('timeline');
+      this.route('freetime');
+    });
   });
   this.route('honor');
   this.route('imprint');
