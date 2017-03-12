@@ -59,7 +59,11 @@
         <div class="list-group">
           {{#each model.challenges as |challenge|}}
             <div class="list-group-item justify-content-between">
-              <strong>{{challenge.place}}{{t 'challenges.place'}}</strong>
+              {{#if challenge.place}}
+                <strong>{{challenge.place}}{{t 'challenges.place'}}</strong>
+              {{else}}
+                {{t 'challenges.noplace'}}
+              {{/if}}
               <span><strong>{{challenge.subject}}</strong> ({{challenge.city}}) - {{challenge.date}}</span>
             </div>
           {{/each}}

@@ -29,6 +29,7 @@ Router.map(function() {
   this.route('imprint');
   this.route('disclaimer');
   this.route('dataprotection');
+  this.route('competition');
 });
 
 export default Router;

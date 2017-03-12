@@ -18,7 +18,8 @@ export default {
     technology: "Technik",
     members: "Mitglieder",
     timeline: "Chronik",
-    freetime: "Freizeit"
+    freetime: "Freizeit",
+    competition: "Wettbewerbsordnung"
   },
   footer: {
     copyright: "&copy; 2016 - {{copyrightTo}} | {{brand}}",
@@ -39,6 +40,8 @@ export default {
     details: "Mehr erfahren »"
   },
   challenges: {
-    place: '. Platz'
+    place: '. Platz',
+    noplace: 'Keine Platzierung',
+    team: '. Team'
   }
 };
