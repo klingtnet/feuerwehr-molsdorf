@@ -8,11 +8,19 @@
 	.content {
 		background: darken($color-default, $color-offset-default * 1);
 		padding: $space-default * 3 0;
+		
+		.nav {
+			display: block;
+		}
 
 		a {
 			color: darken($text-color-default, 30%);
 			font-size: $text-fontSize-default - .1;
 
+			@include media-breakpoint-down(md) {
+				display: block;
+			}
+			
 			&:hover {
 				color: lighten($text-color-default, 100%);
 				text-decoration: none;
@@ -20,6 +28,13 @@
 
 			& ~ a {
 				@include border-left(darken($border-color-default, $color-offset-default * 10), $border-style-default, $border-width-default);
+				
+				@include media-breakpoint-down(xs) {
+					@include border-top(darken($border-color-default, $color-offset-default * 10), $border-style-default, $border-width-default);
+				}
+				@include media-breakpoint-down(md) {
+					border-left: 0;
+				}
 			}
 
 			.fa {

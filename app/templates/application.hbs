@@ -2,8 +2,8 @@
 	<div class="container">
 
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
 
 		{{#link-to "index" class="navbar-brand"}}
 			{{fa-icon "fire-extinguisher"}}
@@ -13,7 +13,7 @@
 		{{/link-to}}
 
 	  <div class="collapse navbar-collapse flex-row-reverse" id="navbarCollapse">
-			<div class="nav navbar-nav">
+		  <div class="nav navbar-nav">
 				{{#each model.navigation as |item|}}
 					{{#link-to item.link class="nav-item nav-link"}}
 						{{t item.localization}}
@@ -41,7 +41,7 @@
 	<div class="content">
 		<div class="container text-center">
 
-			<div class="nav d-flex justify-content-center">
+			<div class="nav">
 				{{#each model.navigation as |item|}}
 					{{#link-to item.link class="btn btn-link"}}
 						{{t item.localization}}
@@ -53,7 +53,7 @@
 				{{t "application.together"}}
 			</div>
 
-			<div class="links d-flex justify-content-center">
+			<div class="nav">
 				{{#link-to "imprint" class="btn btn-link"}}
 					{{t "footer.imprint"}}
 				{{/link-to}}

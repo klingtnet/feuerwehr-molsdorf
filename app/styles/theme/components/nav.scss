@@ -3,7 +3,7 @@
 // Nav
 
 .navbar {
-  background: darken($color-default, $color-offset-default * 1);
+	background: darken($color-default, $color-offset-default * 1);
 	margin-bottom: 0.1em;
 	@include opacity(.9);
 
@@ -15,6 +15,11 @@
 	}
 
 	.navbar-brand {
+		
+		@include media-breakpoint-down(xs) {
+			font-size: 1em;
+			margin-top: .3em;
+		}
 
 		.fa {
 			margin-right: $space-default / 2;
@@ -28,6 +33,20 @@
 		.fa {
 			margin-right: $space-default / 2;
 			font-size: $text-fontSize-default * 1;
+		}
+
+	}
+
+	.navbar-collapse {
+		
+		a {
+			text-align: center;
+			padding: 1em 0;
+			
+			& ~ a {
+				@include border-top(darken($border-color-default, $color-offset-default * 9), $border-style-default, $border-width-default);
+			}
+			
 		}
 
 	}
