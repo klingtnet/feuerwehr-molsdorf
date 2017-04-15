@@ -29,10 +29,8 @@
 			& ~ a {
 				@include border-left(darken($border-color-default, $color-offset-default * 10), $border-style-default, $border-width-default);
 				
-				@include media-breakpoint-down(xs) {
-					@include border-top(darken($border-color-default, $color-offset-default * 10), $border-style-default, $border-width-default);
-				}
 				@include media-breakpoint-down(md) {
+					@include border-top(darken($border-color-default, $color-offset-default * 10), $border-style-default, $border-width-default);
 					border-left: 0;
 				}
 			}
