@@ -44,7 +44,15 @@
 			padding: 1em 0;
 			
 			& ~ a {
-				@include border-top(darken($border-color-default, $color-offset-default * 9), $border-style-default, $border-width-default);
+				
+				@include media-breakpoint-down(xs) {
+					@include border-top(darken($border-color-default, $color-offset-default * 9), $border-style-default, $border-width-default);
+				}
+
+				@include media-breakpoint-up(xs) {
+					border-top: 0;
+				}
+				
 			}
 			
 		}
