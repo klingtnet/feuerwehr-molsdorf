@@ -45,7 +45,7 @@
 			
 			& ~ a {
 				
-				@include media-breakpoint-down(xs) {
+				@include media-breakpoint-down(md) {
 					@include border-top(darken($border-color-default, $color-offset-default * 9), $border-style-default, $border-width-default);
 				}
 
