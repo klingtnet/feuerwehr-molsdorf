@@ -1,0 +1,52 @@
+{
+    "members": [
+        {
+            "id": "lotharheinemann",
+            "firstName": "Lothar",
+            "lastName": "Heinemann",
+            "honor": true
+        },
+        {
+            "id": "goerankreutzer",
+            "firstName": "Göran",
+            "lastName": "Kreutzer",
+            "honor": true
+        },
+        {
+            "id": "muellerandreas",
+            "firstName": "Andreas",
+            "lastName": "Müller",
+            "honor": true
+        },
+        {
+            "id": "guenterschwabe",
+            "firstName": "Günter",
+            "lastName": "Schwabe",
+            "honor": true
+        },
+        {
+            "id": "juergenschwabe",
+            "firstName": "Jürgen",
+            "lastName": "Schwabe",
+            "honor": true
+        },
+        {
+            "id": "mirkotrautmann",
+            "firstName": "Mirko",
+            "lastName": "Trautmann",
+            "honor": true
+        },
+        {
+            "id": "ralfwuestenhoff",
+            "firstName": "Ralf",
+            "lastName": "Wüstenhoff",
+            "honor": true
+        },
+        {
+            "id": "uwevoigtritter",
+            "firstName": "Uwe",
+            "lastName": "Voigtritter",
+            "honor": true
+        }
+    ]
+}

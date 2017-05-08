@@ -32,30 +32,17 @@
 			<div class="col-md-4">
 				<h3>{{t 'navigation.members'}}</h3>
 				<ul>
-					<li>
-						Heinemann	Lothar
-					</li>
-          <li>
-            Kreutzer Göran
-					</li>
-          <li>
-            Müller Andreas
-					</li>
-          <li>
-            Schwabe	Günter
-					</li>
-          <li>
-            Schwabe	Jürgen
-					</li>
-          <li>
-            Trautmann	Mirko
-					</li>
-          <li>
-            Wüstenhoff Ralf
-					</li>
-          <li>
-            Voigtritter	Uwe
-					</li>
+					{{#each model.members as |member|}}
+						{{#if member.honor}}
+							<li>
+								{{member.lastName}} {{member.firstName}}
+							</li>
+						{{/if}}
+					{{else}}
+						<li>
+							Aktuell sind keine Mitglieder in unserer Ehrenabteilung.
+						</li>
+					{{/each}}
 				</ul>
 			</div>
 
