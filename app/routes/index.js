@@ -25,7 +25,8 @@ export default Ember.Route.extend({
           headline: 'Einsatzabteilung',
           text: 'Gemeinsam für euch.'
         }
-      ]
+      ],
+      news: this.get('store').findAll('news'),
     });
   }
 

@@ -39,16 +39,18 @@
 
 <section class="highlight events">
 	<div class="container">
-		<div class="row event">
-			<div class="col-md-1">
-				<p class="date">10</p>
-				<p class="month">JUNI</p>
+		{{#each model.news as |news|}}
+			<div class="row event">
+				<div class="col-md-1">
+					<p class="date">{{news.day}}</p>
+					<p class="month">{{news.month}}</p>
+				</div>
+				<div class="col-md-11">
+					<h2>{{news.title}}</h2>
+					<p>{{news.description}}</p>
+				</div>
 			</div>
-			<div class="col-md-11">
-				<h2>Kinderfest in Molsdorf</h2>
-				<p>Buntes Kinderprogramm und eine Vorführung der Feuerwehr auf dem Sportplatz.</p>
-			</div>
-		</div>
+		{{/each}}
 	</div>
 </section>
 

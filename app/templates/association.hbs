@@ -9,21 +9,47 @@
 			<div class="col-md-6">
 				<h3>Vorstand</h3>
 				<ul>
-					<li>
-						Vereinsvorsitzender <strong>Peter Schwabe</strong>
-					</li>
-					<li>
-						Stellv. Vereinsvorsitzender	<strong>Aileen Friebel</strong>
-					</li>
-					<li>
-						Kassenwart <strong>Diana Milde</strong>
-					</li>
-					<li>
-						Schriftführer	<strong>Ines Schwabe</strong>
-					</li>
-					<li>
-						Beisitzer	<strong>Marcus Holbein</strong>
-					</li>
+					
+					{{#each model.members as |member|}}
+						{{#if member.associationChairman}}
+							<li>
+								Vereinsvorsitzender <strong>{{member.firstName}} {{member.lastName}}</strong>
+							</li>
+						{{/if}}
+					{{/each}}
+					
+					{{#each model.members as |member|}}
+						{{#if member.deputyAssociationChairman}}
+							<li>
+								Stellv. Vereinsvorsitzender <strong>{{member.firstName}} {{member.lastName}}</strong>
+							</li>
+						{{/if}}
+					{{/each}}
+					
+					{{#each model.members as |member|}}
+						{{#if member.treasurer}}
+							<li>
+								Kassenwart <strong>{{member.firstName}} {{member.lastName}}</strong>
+							</li>
+						{{/if}}
+					{{/each}}
+					
+					{{#each model.members as |member|}}
+						{{#if member.secretary}}
+							<li>
+								Schriftführer <strong>{{member.firstName}} {{member.lastName}}</strong>
+							</li>
+						{{/if}}
+					{{/each}}
+					
+					{{#each model.members as |member|}}
+						{{#if member.assessor}}
+							<li>
+								Beisitzer <strong>{{member.firstName}} {{member.lastName}}</strong>
+							</li>
+						{{/if}}
+					{{/each}}
+					
 				</ul>
 			</div>
 			<div class="col-md-6">
@@ -36,7 +62,7 @@
 						eingetragen bei	<strong>Amtsgericht Erfurt, Vereinsregister Nr. VR 162012</strong>
 					</li>
 					<li>
-						Mitgliederzahl <strong>42</strong>
+						Mitgliederzahl <strong>{{model.membership}}</strong>
 					</li>
 				</ul>
 			</div>
