@@ -1,8 +1,10 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
+    type: DS.attr("string"),
     firstName: DS.attr("string"),
     lastName: DS.attr("string"),
+    onBoard: DS.attr("boolean"),
     honor: DS.attr('boolean'),
     associationChairman: DS.attr('boolean'),
     deputyAssociationChairman: DS.attr('boolean'),

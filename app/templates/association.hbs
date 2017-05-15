@@ -9,47 +9,11 @@
 			<div class="col-md-6">
 				<h3>Vorstand</h3>
 				<ul>
-					
 					{{#each model.members as |member|}}
-						{{#if member.associationChairman}}
-							<li>
-								Vereinsvorsitzender <strong>{{member.firstName}} {{member.lastName}}</strong>
-							</li>
-						{{/if}}
+						<li>
+							{{member.type}} - <strong>{{member.firstName}} {{member.lastName}}</strong>
+						</li>
 					{{/each}}
-					
-					{{#each model.members as |member|}}
-						{{#if member.deputyAssociationChairman}}
-							<li>
-								Stellv. Vereinsvorsitzender <strong>{{member.firstName}} {{member.lastName}}</strong>
-							</li>
-						{{/if}}
-					{{/each}}
-					
-					{{#each model.members as |member|}}
-						{{#if member.treasurer}}
-							<li>
-								Kassenwart <strong>{{member.firstName}} {{member.lastName}}</strong>
-							</li>
-						{{/if}}
-					{{/each}}
-					
-					{{#each model.members as |member|}}
-						{{#if member.secretary}}
-							<li>
-								Schriftführer <strong>{{member.firstName}} {{member.lastName}}</strong>
-							</li>
-						{{/if}}
-					{{/each}}
-					
-					{{#each model.members as |member|}}
-						{{#if member.assessor}}
-							<li>
-								Beisitzer <strong>{{member.firstName}} {{member.lastName}}</strong>
-							</li>
-						{{/if}}
-					{{/each}}
-					
 				</ul>
 			</div>
 			<div class="col-md-6">
