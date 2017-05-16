@@ -4,6 +4,7 @@ export default Ember.Route.extend({
 
   model() {
     return Ember.RSVP.hash({
+      timetable: this.get('store').findAll('operation-timetable'),
       members: this.get('store').findAll('member'),
       headerSlides: [
         {

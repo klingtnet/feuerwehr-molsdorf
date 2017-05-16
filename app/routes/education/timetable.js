@@ -5,7 +5,7 @@ export default Ember.Route.extend({
   model() {
     let month = new Date().getMonth();
     let hash = null;
-
+    
     switch (month) {
       case 1:
         hash = Ember.RSVP.hash({

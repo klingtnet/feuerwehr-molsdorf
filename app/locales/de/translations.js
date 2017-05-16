@@ -43,5 +43,19 @@ export default {
     place: '. Platz',
     noplace: 'Keine Platzierung',
     team: '. Team'
+  },
+  month: {
+    JAN: 'Januar',
+    FEB: 'Februar',
+    MRZ: 'März',
+    APRIL: 'April',
+    MAY: 'Mai',
+    JUNE: 'Juni',
+    JULE: 'Juli',
+    AUGUST: 'August',
+    SEP: 'September',
+    OCT: 'Oktober',
+    NOV: 'November',
+    DEC: 'Dezember'
   }
 };

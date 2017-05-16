@@ -1,0 +1,36 @@
+{
+  "operation-timetable": [
+    {
+      "id": 1,
+      "month": "month.JAN",
+      "plan": [
+        {
+          "day": "04",
+          "time": "19:00",
+          "description": "Allgemeine Belange, rechtliche Grundlagen",
+          "lead": "Hendrik Friebel"
+        },
+        {
+          "day": "18",
+          "time": "19:00",
+          "description": "Persönliche Schutzausrüstung",
+          "lead": "Hendrik Friebel"
+        },
+        {
+          "day": "29",
+          "time": "18:00",
+          "description": "Wehrausschusssitzung",
+          "lead": "Hendrik Friebel",
+          "more": "nach Absprache operativ taktisches Studium Schloss Molsdorf - S. Ulbrich"
+        },
+        {
+          "day": "30",
+          "time": "15:30 - 17:30",
+          "description": "Jahreshauptversammlung Förderverein",
+          "lead": "Peter Schwabe",
+          "more": "Jahreshauptversammlung Feuerwehr - Hendrik Friebel"
+        }
+      ]
+    }
+  ]
+}
