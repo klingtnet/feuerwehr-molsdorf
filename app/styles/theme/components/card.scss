@@ -4,7 +4,8 @@
 
 .card {
 	background-color: darken($body-bg, $color-offset-default / 4);
-	
+	margin-bottom: $space-default * 4;
+
 	.fa {
 		margin-right: $space-default;
 	}

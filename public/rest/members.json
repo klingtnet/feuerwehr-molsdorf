@@ -18,7 +18,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
         },
         {
             "id": "goerankreutzer",
@@ -38,7 +39,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": true,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
         },
         {
             "id": "muellerandreas",
@@ -58,7 +60,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
         },
         {
             "id": "guenterschwabe",
@@ -78,7 +81,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
         },
         {
             "id": "juergenschwabe",
@@ -98,7 +102,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": true,
             "safetyOfficer": false,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
         },
         {
             "id": "peterschwabe",
@@ -118,7 +123,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": true
+            "onBoard": true,
+            "groupLeader": false            
         },
         {
             "id": "mirkotrautmann",
@@ -138,7 +144,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
         },
         {
             "id": "ralfwuestenhoff",
@@ -158,7 +165,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
         },
         {
             "id": "uwevoigtritter",
@@ -178,7 +186,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
         },
         {
             "id": "aileenfriebel",
@@ -198,7 +207,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": true
+            "onBoard": true,
+            "groupLeader": false            
         },
         {
             "id": "dianamilde",
@@ -218,7 +228,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": true
+            "onBoard": true,
+            "groupLeader": false            
         },
         {
             "id": "inesschwabe",
@@ -238,7 +249,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": true
+            "onBoard": true,
+            "groupLeader": false            
         },
         {
             "id": "marcusholbein",
@@ -258,7 +270,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": true
+            "onBoard": true,
+            "groupLeader": false            
         },
         {
             "id": "hendrikfriebel",
@@ -278,7 +291,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
         },
         {
             "id": "marcelcleem",
@@ -298,7 +312,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
         },
         {
             "id": "kristianschwabe",
@@ -318,7 +333,8 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
         },
         {
             "id": "nicojentsch",
@@ -338,7 +354,8 @@
             "equipmentOfficer": true,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
         },
         {
             "id": "susannpoeppich",
@@ -358,7 +375,71 @@
             "equipmentOfficer": false,
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
-            "onBoard": false
+            "onBoard": false,
+            "groupLeader": false
+        },
+        {
+            "id": "steffenbaumgarten",
+            "firstName": "Steffen",
+            "lastName": "Baumgarten",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": false,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "onBoard": false,
+            "groupLeader": true
+        },
+        {
+            "id": "steffenbalven",
+            "firstName": "Steffen",
+            "lastName": "Balven",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": false,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "onBoard": false,
+            "groupLeader": false
+        },
+        {
+            "id": "michaelkrech",
+            "firstName": "Michael",
+            "lastName": "Krech",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": false,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "onBoard": false,
+            "groupLeader": true
         }
     ]
 }

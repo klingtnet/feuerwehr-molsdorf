@@ -18,5 +18,6 @@ export default DS.Model.extend({
     childrenOfficer: DS.attr('boolean'),
     equipmentOfficer: DS.attr('boolean'),
     representativeHonorDepartment: DS.attr('boolean'),
-    safetyOfficer: DS.attr('boolean')
+    safetyOfficer: DS.attr('boolean'),
+    groupLeader: DS.attr('boolean')
 });

@@ -5,14 +5,16 @@
 			
 			{{#each model.timetable as |data|}}
 				<div class="col-md-6">
-					<div class="card current-month">
+					<div class="card current-month__">
 						<div class="card-header">{{t data.month}}</div>
 						<div class="card-block">
 							<ul>
 								{{#each data.plan as |item|}}
 									<li>
-										{{item.day}}. - {{item.time}} Uhr - {{item.description}} - {{item.lead}}<br/>
-										{{item.more}}
+										{{item.day}}. - {{item.time}} Uhr - 
+										{{#each item.topics as |topic|}}
+											<strong>{{topic.member}}</strong> - {{topic.description}}<br/>
+										{{/each}}
 									</li>
 								{{/each}}
 							</ul>
@@ -21,91 +23,8 @@
 				</div>
 			{{/each}}
 
-			<div class="col-md-6">
-				<div class="card {{if model.january 'current-month'}}">
-					<div class="card-header">Januar</div>
-					<div class="card-block">
-						<ul>
-							<li>
-								04.	- 19.00 Uhr	- Allgemeine Belange, rechtliche Grundlagen	- H. Friebel
-							</li>
-							<li>
-								18. -	19.00 Uhr	-	Persönliche Schutzausrüstung - H. Friebel
-							</li>
-							<li>
-								29.	-	18.00 Uhr	-	Wehrausschusssitzung - H. Friebel<br />
-								nach	Absprache	operativ taktisches Studium Schloss Molsdorf - S. Ulbrich
-							</li>
-							<li>
-								30.	-	15.30 Uhr -	17.30 Uhr	Jahreshauptversammlung Förderverein - P. Schwabe<br />
-								Jahreshauptversammlung Feuerwehr - H. Friebel
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="card {{if model.february 'current-month'}}">
-					<div class="card-header">Februar</div>
-					<div class="card-block">
-						<ul>
-							<li>
-								01.	- 19.00 Uhr	- Grundlagen der Eis- und Wasserrettung - M.Cleem
-							</li>
-							<li>
-								15.	- 19.00 Uhr	- Besonderheiten der Fahrzeugbeladung	- St. Baumgarten<br />
-								nach	Absprache	Atemschutznotfalltraining	- H. Friebel
-							</li>
-							<li>
-								26.	- 18.30 Uhr	- Wehrausschusssitzung	- H. Friebel
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
 		</div>
-
-		<div class="row">
-			<div class="col-md-6">
-				<div class="card {{if model.march 'current-month'}}">
-					<div class="card-header">März</div>
-					<div class="card-block">
-						<ul>
-							<li>
-								07.	- 19.00 Uhr	Brennen und Löschen	- H. Friebel
-							</li>
-							<li>
-								21.	- 19.00 Uhr	Knoten, Stiche - St. Baumgarten<br />
-								Tragbare Leitern FwDV 10 - S. Pöppich<br />
-								nach	Absprache	Seminar Maschinisten MLF - N. Jentsch<br />
-								nach	Absprache	Seminar Führungskräfte - H. Friebel
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="card {{if model.april 'current-month'}}">
-					<div class="card-header">April</div>
-					<div class="card-block">
-						<ul>
-							<li>
-								02.	8.00 Uhr - Seminar MTW-Fahrer - St. Balven
-							</li>
-							<li>
-								04.	- 19.00 Uhr - Leitern steigen	- S. Pöppich<br />
-								Funk - M. Krech
-							</li>
-							<li>
-								18.	- 19.00 Uhr	FwDV 3 LE	- M. Cleem<br />
-								nach	Absprache	Vorbereitung Fahrzeug- und Geräteprüfung, da noch kein genauer Termin seitens des Amtes 37 bekannt gegeben wurde, werden diese Termine kurzfristig abgesprochen!!! - N. Jentsch
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-
+		
 		<div class="row">
 			<div class="col-md-6">
 				<div class="card {{if model.may 'current-month'}}">

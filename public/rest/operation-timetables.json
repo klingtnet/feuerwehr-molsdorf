@@ -7,28 +7,168 @@
         {
           "day": "04",
           "time": "19:00",
-          "description": "Allgemeine Belange, rechtliche Grundlagen",
-          "lead": "Hendrik Friebel"
+          "topics": [
+            {
+              "description": "Allgemeine Belange, rechtliche Grundlagen",
+              "member": "Hendrik Friebel"
+            }
+          ]
         },
         {
           "day": "18",
           "time": "19:00",
-          "description": "Persönliche Schutzausrüstung",
-          "lead": "Hendrik Friebel"
+          "topics": [
+            {
+              "description": "Persönliche Schutzausrüstung",
+              "member": "Hendrik Friebel"
+            }
+          ]
         },
         {
           "day": "29",
           "time": "18:00",
-          "description": "Wehrausschusssitzung",
-          "lead": "Hendrik Friebel",
-          "more": "nach Absprache operativ taktisches Studium Schloss Molsdorf - S. Ulbrich"
+          "topics": [
+            {
+              "description": "Wehrausschusssitzung",
+              "member": "Hendrik Friebel"
+            },
+            {
+              "description": "nach Absprache operativ taktisches Studium Schloss Molsdorf",
+              "member": "Ulbrich Schwabe"
+            }
+          ]
         },
         {
           "day": "30",
           "time": "15:30 - 17:30",
-          "description": "Jahreshauptversammlung Förderverein",
-          "lead": "Peter Schwabe",
-          "more": "Jahreshauptversammlung Feuerwehr - Hendrik Friebel"
+          "topics": [
+            {
+              "description": "Jahreshauptversammlung Förderverein",
+              "member": "Peter Schwabe"
+            },
+            {
+              "description": "Jahreshauptversammlung Feuerwehr",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "month": "month.FEB",
+      "plan": [
+        {
+          "day": "01",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Grundlagen der Eis- und Wasserrettung",
+              "member": "Marcel Cleem"
+            }
+          ]
+        },
+        {
+          "day": "15",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Besonderheiten der Fahrzeugbeladung",
+              "member": "Steffen Baumgarten"
+            },
+            {
+              "description": "nach Absprache Atemschutznotfalltraining",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        },
+        {
+          "day": "26",
+          "time": "18:30",
+          "topics": [
+            {
+              "description": "Wehrausschusssitzung",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "month": "month.MRZ",
+      "plan": [
+        {
+          "day": "07",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Brennen und Löschen",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        },
+        {
+          "day": "21",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Knoten, Stiche",
+              "member": "Steffen Baumgarten"
+            },
+            {
+              "description": "nach Absprache Seminar Maschinisten MLF",
+              "member": "Nico Jentsch"
+            },
+            {
+              "description": "nach Absprache Seminar Führungskräfte",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "month": "month.APRIL",
+      "plan": [
+        {
+          "day": "02",
+          "time": "8:00",
+          "topics": [
+            {
+              "description": "Seminar MTW-Fahrer",
+              "member": "St. Balven"
+            }
+          ]
+        },
+        {
+          "day": "04",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Leitern steigen",
+              "member": "Susann Pöppich"
+            },
+            {
+              "description": "Funk",
+              "member": "Michael Krech"
+            }
+          ]
+        },
+        {
+          "day": "18",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "FwDV 3 LE",
+              "member": "Marcel Cleem"
+            },
+            {
+              "description": "nach Absprache Vorbereitung Fahrzeug- und Geräteprüfung, da noch kein genauer Termin seitens des Amtes 37 bekannt gegeben wurde, werden diese Termine kurzfristig abgesprochen!!!",
+              "member": "Nico Jentsch"
+            }
+          ]
         }
       ]
     }
