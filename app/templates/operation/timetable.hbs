@@ -5,7 +5,7 @@
 			
 			{{#each model.timetable as |data|}}
 				<div class="col-md-6">
-					<div class="card current-month__">
+					<div class="card {{if data.currentMonth 'current-month'}}">
 						<div class="card-header">{{t data.month}}</div>
 						<div class="card-block">
 							<ul>

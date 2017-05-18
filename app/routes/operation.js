@@ -4,7 +4,20 @@ export default Ember.Route.extend({
 
   model() {
     return Ember.RSVP.hash({
-      timetable: this.get('store').findAll('operation-timetable'),
+      timetable: this.get('store').findAll('operation-timetable').then((data) => {
+        let date = new Date();
+        let month = date.getMonth();
+        
+        data.forEach(function(element) {
+          console.log(element.get('id'), month);
+          if (parseInt(element.get('id')) === month) {
+            element.set('currentMonth', true);
+          }
+        });
+
+        console.log(data);
+        return data;
+      }),
       members: this.get('store').findAll('member'),
       headerSlides: [
         {
