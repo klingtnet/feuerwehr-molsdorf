@@ -171,6 +171,279 @@
           ]
         }
       ]
+    },
+    {
+      "id": 5,
+      "month": "month.MAY",
+      "plan": [
+        {
+          "day": "02",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "FwDV 3 LE",
+              "member": "Susann Pöppich"
+            }
+          ]
+        },
+        {
+          "day": "09",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "FwDV 3 LE",
+              "member": "Marcel Cleem"
+            }
+          ]
+        },
+        {
+          "day": "23",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Sicherung von verunfallten Fahrzeugen, Unfälle mit alternativ angetriebenen Fahrzeugen, Sicherung von Einsatzstellen",
+              "member": "Marcel Cleem, Steffen Baumgarten"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "month": "month.JUNE",
+      "plan": [
+        {
+          "day": "06",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "FwDV 3 THL",
+              "member": "Marcel Cleem"
+            }
+          ]
+        },
+        {
+          "day": "13",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Stromerzeugung und Ausleuchten",
+              "member": "Nico Jentsch, Marcus Holbein"
+            }
+          ]
+        },
+        {
+          "day": "20",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Pumpenausbildung",
+              "member": "Nico Jentsch, Marcus Holbein"
+            }
+          ]
+        },
+        {
+          "day": "24",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Wehrausschusssitzung",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "month": "month.JULE",
+      "plan": []
+    },
+    {
+      "id": 8,
+      "month": "month.AUGUST",
+      "plan": [
+        {
+          "day": "15",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Einfache Rettung aus Höhen und Tiefen",
+              "member": "Steffen Baumgarten"
+            }
+          ]
+        },
+        {
+          "day": "22",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Grundlagen der Absturzsicherung",
+              "member": "Michael Krech"
+            }
+          ]
+        },
+        {
+          "day": "26",
+          "time": "18:30",
+          "topics": [
+            {
+              "description": "Einfache Rettung aus Höhen und Tiefen",
+              "member": "Steffen Baumgarten"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "month": "month.SEP",
+      "plan": [
+        {
+          "day": "05",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "z.b.V.",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        },
+        {
+          "day": "12",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Hydrantenkontrolle",
+              "member": "Marcel Cleem"
+            }
+          ]
+        },
+        {
+          "day": "19",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "operativ taktisches Studium Bahnanlagen",
+              "member": "Hendrik Friebel"
+            },
+            {
+              "description": "nach Absprache operativ taktisches Studium / BMA",
+              "member": "Ulbrich Schwabe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "month": "month.OCT",
+      "plan": [
+        {
+          "day": "10",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Besondere Einsatzlagen",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        },
+        {
+          "day": "22",
+          "time": "8:00",
+          "topics": [
+            {
+              "description": "Atemschutzstrecke",
+              "member": "Hendrik Friebel"
+            },
+            {
+              "description": "nach Absprache Seminar Führungskräfte",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        },
+        {
+          "day": "24",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Gefahren der Einsatzstelle",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "month": "month.NOV",
+      "plan": [
+        {
+          "day": "07",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Gefahrgut",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        },
+        {
+          "day": "14",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Einsätze an Bahnanlagen",
+              "member": "Hendrik Friebel"
+            },
+            {
+              "description": "nach Absprache Seminar Führungskräfte",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        },
+        {
+          "day": "25",
+          "time": "18:00",
+          "topics": [
+            {
+              "description": "Wehrausschusssitzung",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "month": "month.DEC",
+      "plan": [
+        {
+          "day": "05",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "operativ taktisches Studium",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        },
+        {
+          "day": "12",
+          "time": "19:00",
+          "topics": [
+            {
+              "description": "Allgemeines",
+              "member": "Hendrik Friebel"
+            },
+            {
+              "description": "nach Absprache Wehrausschusssitzung",
+              "member": "Hendrik Friebel"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

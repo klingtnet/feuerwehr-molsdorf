@@ -440,6 +440,27 @@
             "safetyOfficer": false,
             "onBoard": false,
             "groupLeader": true
+        },
+        {
+            "id": "ulrichschwabe",
+            "firstName": "Ulrich",
+            "lastName": "Schwabe",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": false,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "onBoard": false,
+            "groupLeader": false
         }
     ]
 }
