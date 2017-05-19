@@ -8,32 +8,32 @@ export default Ember.Route.extend({
         let list = Ember.A();
         
         members.forEach((member) => {
-          if (member.get('onBoard') && member.get('associationChairman')) {
-            member.set('type', 'Vereinsvorsitzender');
+          if (member.get('board') && member.get('associationChairman')) {
+            member.set('type', 'associationChairman');
             list.push(member);
           }
         });
         members.forEach((member) => {
-          if (member.get('onBoard') && member.get('deputyAssociationChairman')) {
-            member.set('type', 'Stellv. Vereinsvorsitzender');
+          if (member.get('board') && member.get('deputyAssociationChairman')) {
+            member.set('type', 'deputyAssociationChairman');
             list.push(member);
           }
         });
         members.forEach((member) => {
-          if (member.get('onBoard') && member.get('treasurer')) {
-            member.set('type', 'Kassenwart');
+          if (member.get('board') && member.get('treasurer')) {
+            member.set('type', 'treasurer');
             list.push(member);
           }
         });
         members.forEach((member) => {
-          if (member.get('onBoard') && member.get('secretary')) {
-            member.set('type', 'Schriftführer');
+          if (member.get('board') && member.get('secretary')) {
+            member.set('type', 'secretary');
             list.push(member);
           }
         });
         members.forEach((member) => {
-          if (member.get('onBoard') && member.get('assessor')) {
-            member.set('type', 'Beisitzer');
+          if (member.get('board') && member.get('assessor')) {
+            member.set('type', 'assessor');
             list.push(member);
           }
         });

@@ -57,5 +57,22 @@ export default {
     OCT: 'Oktober',
     NOV: 'November',
     DEC: 'Dezember'
-  }
+  },
+  board: 'Vorstand',
+  honor: 'Ehrenabteilung',
+  representativeHonorDepartment: 'Vetreter der Alters- und Ehrenabteilung',
+  associationChairman: 'Vereinsvorsitzender',
+  deputyAssociationChairman: 'stellv. Vereinsvorsitzender',
+  treasurer: 'Kassenwart',
+  secretary: 'Schriftführer',
+  assessor: 'Beisitzer',
+  fireChief: 'Wehrführer',
+  deputyFireChief: 'stellv. Wehrführer',
+  operations: 'Einsatzabteilung',
+  youthOfficer: 'Jugendfeuerwehrwart',
+  childrenOfficer: 'Kinderfeuerwehrwart',
+  equipmentOfficer: 'Gerätewart',
+  safetyOfficer: 'Sicherheitsbeauftragter',
+  groupLeader: 'Gruppenführer',
+  militaryCommittee: 'Wehrausschuss'
 };

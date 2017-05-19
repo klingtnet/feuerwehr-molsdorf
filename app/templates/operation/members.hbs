@@ -6,87 +6,13 @@
 					<div class="card-header">Wehrausschuss</div>
 					<div class="card-block">
 						<ul>
-							
-							{{#each model.members as |member|}}
-								{{#if member.operations}}
-									{{#if member.fireChief}}
-										<li>
-											Wehrführer - <strong>{{member.firstName}} {{member.lastName}}</strong>
-										</li>
-									{{/if}}
-								{{/if}}
+							{{#each model.members as |membersTypelist|}}
+								{{#each membersTypelist as |item|}}
+									<li>
+										{{t item.type}} - <strong>{{item.member.firstName}} {{item.member.lastName}}</strong>
+									</li>
+								{{/each}}
 							{{/each}}
-							
-							{{#each model.members as |member|}}
-								{{#if member.operations}}
-									{{#if member.deputyFireChief}}
-										<li>
-											stellv. Wehrführer - <strong>{{member.firstName}} {{member.lastName}}</strong>
-										</li>
-									{{/if}}
-								{{/if}}
-							{{/each}}
-
-							{{#each model.members as |member|}}
-								{{#if member.operations}}
-									{{#if member.youthOfficer}}
-										<li>
-											Jugendfeuerwehrwart - <strong>{{member.firstName}} {{member.lastName}}</strong>
-										</li>
-									{{/if}}
-								{{/if}}
-							{{/each}}
-
-							{{#each model.members as |member|}}
-								{{#if member.operations}}
-									{{#if member.childrenOfficer}}
-										<li>
-											Kinderfeuerwehrwart - <strong>{{member.firstName}} {{member.lastName}}</strong>
-										</li>
-									{{/if}}
-								{{/if}}
-							{{/each}}
-
-							{{#each model.members as |member|}}
-								{{#if member.operations}}
-									{{#if member.assessor}}
-										<li>
-											Beisitzer - <strong>{{member.firstName}} {{member.lastName}}</strong>
-										</li>
-									{{/if}}
-								{{/if}}
-							{{/each}}
-							
-							{{#each model.members as |member|}}
-								{{#if member.operations}}
-									{{#if member.equipmentOfficer}}
-										<li>
-											Gerätewart - <strong>{{member.firstName}} {{member.lastName}}</strong>
-										</li>
-									{{/if}}
-								{{/if}}
-							{{/each}}
-							
-							{{#each model.members as |member|}}
-								{{#if member.operations}}
-									{{#if member.representativeHonorDepartment}}
-										<li>
-											Vetreter der Alters- und Ehrenabteilung - <strong>{{member.firstName}} {{member.lastName}}</strong>
-										</li>
-									{{/if}}
-								{{/if}}
-							{{/each}}
-							
-							{{#each model.members as |member|}}
-								{{#if member.operations}}
-									{{#if member.safetyOfficer}}
-										<li>
-											Sicherheitsbeauftragter - <strong>{{member.firstName}} {{member.lastName}}</strong>
-										</li>
-									{{/if}}
-								{{/if}}
-							{{/each}}
-							
 						</ul>
 					</div>
 				</div>
