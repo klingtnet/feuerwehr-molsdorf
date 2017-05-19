@@ -74,5 +74,9 @@ export default {
   equipmentOfficer: 'Gerätewart',
   safetyOfficer: 'Sicherheitsbeauftragter',
   groupLeader: 'Gruppenführer',
-  militaryCommittee: 'Wehrausschuss'
+  chiefGuard: 'Zugführer',
+  militaryCommittee: 'Wehrausschuss',
+  agt: 'Atemschutzgeräteträger',
+  ma: 'Maschinist',
+  KSF: 'Kettensägenführer'
 };

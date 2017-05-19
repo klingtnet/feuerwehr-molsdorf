@@ -6,7 +6,7 @@
 					<div class="card-header">Wehrausschuss</div>
 					<div class="card-block">
 						<ul>
-							{{#each model.members as |membersTypelist|}}
+							{{#each model.commiteeMembers as |membersTypelist|}}
 								{{#each membersTypelist as |item|}}
 									<li>
 										{{t item.type}} - <strong>{{item.member.firstName}} {{item.member.lastName}}</strong>
@@ -24,13 +24,13 @@
 <section>
 	<div class="container text-center">
 		<p>
-			<strong>AGT</strong> - Atemschutzgeräteträger
+			<strong>AGT</strong> - {{t 'agt'}}
 		</p>
 		<p>
-			<strong>MA</strong> - Maschinist
+			<strong>MA</strong> - {{t 'ma'}}
 		</p>
 		<p>
-			<strong>KSF</strong> - Kettensägenführer
+			<strong>KSF</strong> - {{t 'ksf'}}
 		</p>
 	</div>
 </section>
@@ -42,6 +42,16 @@
 				<div class="card">
 					<div class="card-header">Mitglieder</div>
 					<div class="list-group">
+						
+						{{#each model.operationMembers as |member|}}
+							<div class="list-group-item justify-content-between">
+								<strong>{{member.firstName}} {{member.lastName}}</strong>
+								{{#each member as |topic|}}
+									<span class="badge badge-default badge-pill">{{topic.name}}</span>
+								{{/each}}
+							</div>
+						{{/each}}
+
 						<div class="list-group-item justify-content-between">
 					    Baumgarten Steffen - Gruppenführer
 							<div>

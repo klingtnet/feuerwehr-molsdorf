@@ -20,7 +20,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": false
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "goerankreutzer",
@@ -42,7 +46,11 @@
             "safetyOfficer": true,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": true
+            "militaryCommittee": true,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "muellerandreas",
@@ -64,7 +72,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": false
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "guenterschwabe",
@@ -86,7 +98,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": false
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "juergenschwabe",
@@ -108,7 +124,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": true
+            "militaryCommittee": true,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "peterschwabe",
@@ -129,8 +149,12 @@
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
             "board": true,
-            "groupLeader": false            ,
-            "militaryCommittee": false
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "mirkotrautmann",
@@ -152,7 +176,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": false
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "ralfwuestenhoff",
@@ -174,7 +202,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": false
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "uwevoigtritter",
@@ -196,7 +228,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": false
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "aileenfriebel",
@@ -217,8 +253,12 @@
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
             "board": true,
-            "groupLeader": false            ,
-            "militaryCommittee": false
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "dianamilde",
@@ -239,8 +279,12 @@
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
             "board": true,
-            "groupLeader": false            ,
-            "militaryCommittee": false
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "inesschwabe",
@@ -262,7 +306,11 @@
             "safetyOfficer": false,
             "board": true,
             "groupLeader": false,
-            "militaryCommittee": true
+            "militaryCommittee": true,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "marcusholbein",
@@ -283,8 +331,12 @@
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
             "board": true,
-            "groupLeader": false            ,
-            "militaryCommittee": false
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "hendrikfriebel",
@@ -306,7 +358,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": true
+            "militaryCommittee": true,
+            "chiefGuard": true,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "marcelcleem",
@@ -328,7 +384,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": true
+            "militaryCommittee": true,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "kristianschwabe",
@@ -350,7 +410,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": true
+            "militaryCommittee": true,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "nicojentsch",
@@ -372,7 +436,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": true
+            "militaryCommittee": true,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "susannpoeppich",
@@ -394,7 +462,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": true
+            "militaryCommittee": true,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "steffenbaumgarten",
@@ -416,7 +488,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": true,
-            "militaryCommittee": false
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": true,
+            "ma": true,
+            "ksf": true
         },
         {
             "id": "steffenbalven",
@@ -438,7 +514,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": false
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "michaelkrech",
@@ -460,7 +540,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": true,
-            "militaryCommittee": false
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         },
         {
             "id": "ulrichschwabe",
@@ -482,7 +566,11 @@
             "safetyOfficer": false,
             "board": false,
             "groupLeader": false,
-            "militaryCommittee": false
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "agt": false,
+            "ma": false,
+            "ksf": false
         }
     ]
 }

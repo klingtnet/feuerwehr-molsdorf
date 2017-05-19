@@ -20,5 +20,9 @@ export default DS.Model.extend({
     equipmentOfficer: DS.attr('boolean'),
     safetyOfficer: DS.attr('boolean'),
     groupLeader: DS.attr('boolean'),
-    militaryCommittee: DS.attr('boolean')
+    chiefGuard: DS.attr('boolean'),
+    militaryCommittee: DS.attr('boolean'),
+    agt: DS.attr('string'),
+    ma: DS.attr('string'),
+    ksf: DS.attr('string')
 });

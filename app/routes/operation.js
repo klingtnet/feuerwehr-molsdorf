@@ -18,7 +18,10 @@ export default Ember.Route.extend({
         console.log(data);
         return data;
       }),
-      members: this.get('store').findAll('member').then((members) => {
+      operationMembers: this.get('store').findAll('member').then((members) => {
+        return members.sortBy('firstName');
+      }),
+      commiteeMembers: this.get('store').findAll('member').then((members) => {
         let list = Ember.A();
         
         let fireChiefList = Ember.A();
@@ -31,7 +34,7 @@ export default Ember.Route.extend({
           }
         });
         list.push(fireChiefList);
-
+        
         let deputyFireChiefList = Ember.A();
         members.forEach((member) => {
           if (member.get('militaryCommittee') && member.get('deputyFireChief')) {
