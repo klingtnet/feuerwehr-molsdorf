@@ -24,5 +24,6 @@ export default DS.Model.extend({
     militaryCommittee: DS.attr('boolean'),
     agt: DS.attr('string'),
     ma: DS.attr('string'),
-    ksf: DS.attr('string')
+    ksf: DS.attr('string'),
+    operationTasks: DS.attr()
 });

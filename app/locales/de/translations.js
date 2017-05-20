@@ -78,5 +78,6 @@ export default {
   militaryCommittee: 'Wehrausschuss',
   agt: 'Atemschutzgeräteträger',
   ma: 'Maschinist',
-  KSF: 'Kettensägenführer'
+  ksf: 'Kettensägenführer',
+  currentlyNotApplicable: 'derzeit nicht einsetzbar'
 };

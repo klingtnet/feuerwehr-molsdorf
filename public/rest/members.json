@@ -22,9 +22,20 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "goerankreutzer",
@@ -48,9 +59,20 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "muellerandreas",
@@ -74,9 +96,20 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "guenterschwabe",
@@ -100,9 +133,20 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "juergenschwabe",
@@ -126,9 +170,20 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "peterschwabe",
@@ -152,9 +207,12 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "ma", 
+                    "active": true
+                }
+            ]
         },
         {
             "id": "mirkotrautmann",
@@ -178,9 +236,20 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "ralfwuestenhoff",
@@ -204,9 +273,20 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "uwevoigtritter",
@@ -230,9 +310,20 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "aileenfriebel",
@@ -256,9 +347,7 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": []
         },
         {
             "id": "dianamilde",
@@ -282,9 +371,20 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "inesschwabe",
@@ -308,9 +408,7 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": []
         },
         {
             "id": "marcusholbein",
@@ -334,9 +432,20 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "hendrikfriebel",
@@ -360,9 +469,20 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": true,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "marcelcleem",
@@ -386,9 +506,16 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "kristianschwabe",
@@ -412,9 +539,20 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "nicojentsch",
@@ -438,9 +576,20 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "susannpoeppich",
@@ -464,9 +613,20 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "steffenbaumgarten",
@@ -490,9 +650,20 @@
             "groupLeader": true,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": true,
-            "ma": true,
-            "ksf": true
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma",
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "steffenbalven",
@@ -516,9 +687,20 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "michaelkrech",
@@ -542,9 +724,16 @@
             "groupLeader": true,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": false
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
         },
         {
             "id": "ulrichschwabe",
@@ -568,9 +757,303 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
-            "agt": false,
-            "ma": false,
-            "ksf": false
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": true
+                },
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "anabellthiem",
+            "firstName": "Anabell",
+            "lastName": "Thiem",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": true,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "board": false,
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "operationTasks": []
+        },
+        {
+            "id": "kristinaschwabe",
+            "firstName": "Kristina",
+            "lastName": "Schwabe",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": true,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "board": false,
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "operationTasks": []
+        },
+        {
+            "id": "larsmilde",
+            "firstName": "Lars",
+            "lastName": "Milde",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": true,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "board": false,
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "operationTasks": []
+        },
+        {
+            "id": "silviolorenz",
+            "firstName": "Silvio",
+            "lastName": "Lorenz",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": true,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "board": false,
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "operationTasks": [
+                { 
+                    "name": "ma", 
+                    "active": true
+                },
+                { 
+                    "name": "ksf",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "marcokieper",
+            "firstName": "Marco",
+            "lastName": "Kieper",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": true,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "board": false,
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "operationTasks": []
+        },
+        {
+            "id": "ralfkewitz",
+            "firstName": "Ralf",
+            "lastName": "Kewitz",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": true,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "board": false,
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "operationTasks": [
+                { 
+                    "name": "ma", 
+                    "active": true
+                }
+            ]
+        },
+        {
+            "id": "hennrichmartin",
+            "firstName": "Martin",
+            "lastName": "Hennrich",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": true,
+            "fireChief": false,
+            "operations": false,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "board": true,
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "operationTasks": [
+                { 
+                    "name": "agt", 
+                    "active": false
+                }
+            ]
+        },
+        {
+            "id": "heinzhenry",
+            "firstName": "Heinz",
+            "lastName": "Henry",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": true,
+            "fireChief": false,
+            "operations": false,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "board": true,
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "operationTasks": []
+        },
+        {
+            "id": "tillheinemann",
+            "firstName": "Till",
+            "lastName": "Heinemann",
+            "honor": true,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": false,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "board": false,
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "operationTasks": []
+        },
+        {
+            "id": "michaelgrzona",
+            "firstName": "Michael",
+            "lastName": "Grzona",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": false,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "board": false,
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "operationTasks": []
+        },
+        {
+            "id": "dirkfarwick",
+            "firstName": "Dirk",
+            "lastName": "Farwick",
+            "honor": false,
+            "associationChairman": false,
+            "deputyAssociationChairman": false,
+            "treasurer": false,
+            "secretary": false,
+            "assessor": false,
+            "fireChief": false,
+            "operations": false,
+            "deputyFireChief": false,
+            "youthOfficer": false,
+            "childrenOfficer": false,
+            "equipmentOfficer": false,
+            "representativeHonorDepartment": false,
+            "safetyOfficer": false,
+            "board": false,
+            "groupLeader": false,
+            "militaryCommittee": false,
+            "chiefGuard": false,
+            "operationTasks": []
         }
     ]
 }
