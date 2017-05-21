@@ -100,7 +100,7 @@
                 <div class="list-group">
                   {{#each model.child_members as |member|}}
                     <div class="list-group-item justify-content-between">
-                      <strong>{{member.name}}</strong> ( {{member.role}} )
+                      <strong>{{member.name}}</strong> <span class="badge badge-default badge-pill">{{member.role}}</span>
                     </div>
                   {{/each}}
                 </div>
