@@ -9,17 +9,19 @@ export default Ember.Route.extend({
         let month = date.getMonth();
         
         data.forEach(function(element) {
-          console.log(element.get('id'), month);
           if (parseInt(element.get('id')) === month) {
             element.set('currentMonth', true);
           }
         });
 
-        console.log(data);
         return data;
       }),
       operationMembers: this.get('store').findAll('member').then((members) => {
-        return members.sortBy('firstName');
+        return members.filterBy('operationalMembers', true).sortBy('firstName');
+      }),
+      operationMembersCount: this.get('store').findAll('member').then((members) => {
+        let list = members.filterBy('operationalMembers', true);
+        return list.get('length');
       }),
       commiteeMembers: this.get('store').findAll('member').then((members) => {
         let list = Ember.A();

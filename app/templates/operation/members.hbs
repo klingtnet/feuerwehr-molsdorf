@@ -40,10 +40,10 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="card">
-					<div class="card-header">Mitglieder</div>
+					<div class="card-header">Mitglieder ({{model.operationMembersCount}})</div>
 					<div class="list-group">
 						
-						{{!--
+						{{!-- Example for operation member tasks
 							"operationTasks": [
                 { 
                     "name": "agt", 
@@ -59,20 +59,21 @@
                 }
             ]
 						--}}
-
 						{{#each model.operationMembers as |member|}}
 							<div class="list-group-item justify-content-between">
 								<strong>{{member.firstName}} {{member.lastName}}</strong>
 								<div>
 									{{#each member.operationTasks as |topic|}}
-										<span class="badge badge-{{if topic.active 'default' 'warning'}} badge-pill text-uppercase">
+										<span class="badge badge-{{if topic.active 'default' 'warning'}} badge-pill text-uppercase" title="{{t topic.name}}">
 											{{topic.name}}{{#if topic.active}}{{else}} ( <small>{{t 'currentlyNotApplicable'}}</small> ){{/if}}
 										</span>
 									{{/each}}
 								</div>
 							</div>
 						{{/each}}
-
+						
+						{{!--
+						<div class="list-group-item list-group-item-warning justify-content-between"></div>
 						<div class="list-group-item justify-content-between">
 					    Baumgarten Steffen - Gruppenführer
 							<div>
@@ -90,14 +91,6 @@
 					  </div>
 						<div class="list-group-item justify-content-between">
 					    Farwick	Dirk
-					  </div>
-						<div class="list-group-item justify-content-between">
-					    Baumgarten Steffen - Gruppenführer
-							<div>
-						    <span class="badge badge-default badge-pill">AGT</span>
-								<span class="badge badge-default badge-pill">MA</span>
-								<span class="badge badge-default badge-pill">KSF</span>
-							</div>
 					  </div>
 						<div class="list-group-item justify-content-between">
 							Friebel	Aileen - Truppmann
@@ -190,6 +183,8 @@
 						<div class="list-group-item justify-content-between">
 							Thiem	Anabell
 					  </div>
+						--}}
+
 					</div>
 				</div>
 			</div>

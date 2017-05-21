@@ -13,7 +13,7 @@ export default DS.Model.extend({
     secretary: DS.attr('boolean'),
     assessor: DS.attr('boolean'),
     fireChief: DS.attr('boolean'),
-    operations: DS.attr('boolean'),
+    operationalMembers: DS.attr('boolean'),
     deputyFireChief: DS.attr('boolean'),
     youthOfficer: DS.attr('boolean'),
     childrenOfficer: DS.attr('boolean'),
