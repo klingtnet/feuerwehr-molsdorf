@@ -22,6 +22,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": []
         },
         {
@@ -46,6 +48,8 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -83,6 +87,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -120,6 +126,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -157,6 +165,8 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -194,6 +204,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": true,
             "operationTasks": [
                 { 
                     "name": "ma", 
@@ -223,6 +235,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -260,6 +274,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -297,6 +313,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -334,6 +352,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": true,
+            "squadLeader": false,
             "operationTasks": []
         },
         {
@@ -358,6 +378,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -395,6 +417,8 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": []
         },
         {
@@ -419,6 +443,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": true,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -456,6 +482,8 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": true,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -493,6 +521,8 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "ma", 
@@ -526,6 +556,8 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -563,6 +595,8 @@
             "groupLeader": false,
             "militaryCommittee": true,
             "chiefGuard": false,
+            "troopMan": true,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -597,9 +631,11 @@
             "representativeHonorDepartment": false,
             "safetyOfficer": false,
             "board": false,
-            "groupLeader": false,
+            "groupLeader": true,
             "militaryCommittee": true,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -637,6 +673,8 @@
             "groupLeader": true,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -674,6 +712,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -711,6 +751,8 @@
             "groupLeader": true,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": true,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -744,6 +786,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -781,6 +825,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": []
         },
         {
@@ -805,6 +851,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": true,
+            "squadLeader": false,
             "operationTasks": []
         },
         {
@@ -829,6 +877,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": true,
+            "squadLeader": false,
             "operationTasks": []
         },
         {
@@ -853,6 +903,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": true,
             "operationTasks": [
                 { 
                     "name": "ma", 
@@ -886,6 +938,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": []
         },
         {
@@ -910,6 +964,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": true,
             "operationTasks": [
                 { 
                     "name": "ma", 
@@ -939,6 +995,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": true,
             "operationTasks": [
                 { 
                     "name": "agt", 
@@ -968,6 +1026,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": []
         },
         {
@@ -992,6 +1052,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": []
         },
         {
@@ -1016,6 +1078,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": true,
             "operationTasks": []
         },
         {
@@ -1040,6 +1104,8 @@
             "groupLeader": false,
             "militaryCommittee": false,
             "chiefGuard": false,
+            "troopMan": false,
+            "squadLeader": false,
             "operationTasks": []
         }
     ]

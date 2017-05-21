@@ -79,5 +79,7 @@ export default {
   agt: 'Atemschutzgeräteträger',
   ma: 'Maschinist',
   ksf: 'Kettensägenführer',
-  currentlyNotApplicable: 'derzeit nicht einsetzbar'
+  currentlyNotApplicable: 'derzeit nicht einsetzbar',
+  troopMan: 'Truppmann',
+  squadLeader: 'Truppführer'
 };

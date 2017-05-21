@@ -25,5 +25,7 @@ export default DS.Model.extend({
     agt: DS.attr('string'),
     ma: DS.attr('string'),
     ksf: DS.attr('string'),
-    operationTasks: DS.attr()
+    operationTasks: DS.attr(),
+    troopMan: DS.attr('boolean'),
+    squadLeader: DS.attr('boolean')
 });
