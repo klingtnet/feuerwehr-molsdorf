@@ -25,7 +25,12 @@ export default Ember.Route.extend({
         }).sortBy('firstName');
       }),
       operationalMembersCount: this.get('store').findAll('member').then((members) => {
-        let list = members.filterBy('operationsDepartment.member', true);
+        let list = members.filter(function(member/*, index, array*/) {
+          if (member.get('operationsDepartment.member')) {
+            return true;
+          }
+          return false;
+        });
         return list.get('length');
       }),
       commiteeMembers: this.get('store').findAll('member').then((members) => {

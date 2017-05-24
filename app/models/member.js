@@ -4,13 +4,14 @@ export default DS.Model.extend({
     type: DS.attr("string"),
     firstName: DS.attr("string"),
     lastName: DS.attr("string"),
-    operationsDepartment: DS.attr(),
-    
     board: DS.attr("boolean"),
+    boardChairman: DS.attr('boolean'),
+    deputyBoardChairman: DS.attr('boolean'),
+    
+    operationsDepartment: DS.attr(),
     honor: DS.attr('boolean'),
+    
     representativeHonorDepartment: DS.attr('boolean'),
-    associationChairman: DS.attr('boolean'),
-    deputyAssociationChairman: DS.attr('boolean'),
     treasurer: DS.attr('boolean'),
     secretary: DS.attr('boolean'),
     assessor: DS.attr('boolean'),

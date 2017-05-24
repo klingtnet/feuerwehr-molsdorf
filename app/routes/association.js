@@ -8,14 +8,14 @@ export default Ember.Route.extend({
         let list = Ember.A();
         
         members.forEach((member) => {
-          if (member.get('board') && member.get('associationChairman')) {
-            member.set('type', 'associationChairman');
+          if (member.get('board') && member.get('boardChairman')) {
+            member.set('type', 'boardChairman');
             list.push(member);
           }
         });
         members.forEach((member) => {
-          if (member.get('board') && member.get('deputyAssociationChairman')) {
-            member.set('type', 'deputyAssociationChairman');
+          if (member.get('board') && member.get('deputyBoardChairman')) {
+            member.set('type', 'deputyBoardChairman');
             list.push(member);
           }
         });
