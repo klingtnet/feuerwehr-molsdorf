@@ -4,6 +4,8 @@ export default DS.Model.extend({
     type: DS.attr("string"),
     firstName: DS.attr("string"),
     lastName: DS.attr("string"),
+    operationsDepartment: DS.attr(),
+    
     board: DS.attr("boolean"),
     honor: DS.attr('boolean'),
     representativeHonorDepartment: DS.attr('boolean'),

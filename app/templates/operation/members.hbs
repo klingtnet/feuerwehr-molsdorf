@@ -6,10 +6,10 @@
 					<div class="card-header">Wehrausschuss</div>
 					<div class="card-block">
 						<ul>
-							{{#each model.commiteeMembers as |membersTypelist|}}
-								{{#each membersTypelist as |item|}}
+							{{#each model.commiteeMembers as |operationalTypesList|}}
+								{{#each operationalTypesList as |item|}}
 									<li>
-										{{t item.type}} - <strong>{{item.member.firstName}} {{item.member.lastName}}</strong>
+										<strong>{{item.member.firstName}} {{item.member.lastName}}</strong> - {{t item.job}}
 									</li>
 								{{/each}}
 							{{/each}}
@@ -40,36 +40,19 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="card">
-					<div class="card-header">Mitglieder ({{model.operationMembersCount}})</div>
+					<div class="card-header">Mitglieder ({{model.operationalMembersCount}})</div>
 					<div class="list-group">
-						
-						{{!-- Example for operation member tasks
-							"operationTasks": [
-                { 
-                    "name": "agt", 
-                    "active": true
-                },
-                { 
-                    "name": "ma", 
-                    "active": true
-                },
-                { 
-                    "name": "agt",
-                    "active": true
-                }
-            ]
-						--}}
-						{{#each model.operationMembers as |member|}}
+
+						{{#each model.operationalMembers as |member|}}
 							<div class="list-group-item justify-content-between">
 								<p>
 									<strong>{{member.firstName}} {{member.lastName}}</strong>
-									{{#if member.groupLeader}} - {{t 'groupLeader'}}{{/if}}
-									{{#if member.chiefGuard}} - {{t 'chiefGuard'}}{{/if}}
-									{{#if member.troopMan}} - {{t 'troopMan'}}{{/if}}
-									{{#if member.squadLeader}} - {{t 'squadLeader'}}{{/if}}
+									{{#each member.operationsDepartment.member as |item|}}
+										- {{t item.job}}
+									{{/each}}
 								</p>
 								<div>
-									{{#each member.operationTasks as |topic|}}
+									{{#each member.operationsDepartment.operationalTasks as |topic|}}
 										<span class="badge badge-{{if topic.active 'default' 'warning'}} badge-pill text-uppercase" title="{{t topic.name}}">
 											{{topic.name}}{{#if topic.active}}{{else}} ( <small>{{t 'currentlyNotApplicable'}}</small> ){{/if}}
 										</span>
@@ -77,120 +60,7 @@
 								</div>
 							</div>
 						{{/each}}
-
-						{{!--
-						<div class="list-group-item list-group-item-warning justify-content-between"></div>
-						<div class="list-group-item justify-content-between">
-					    Baumgarten Steffen - Gruppenführer
-							<div>
-						    <span class="badge badge-default badge-pill">AGT</span>
-								<span class="badge badge-default badge-pill">MA</span>
-								<span class="badge badge-default badge-pill">KSF</span>
-							</div>
-					  </div>
-						<div class="list-group-item justify-content-between">
-					    Cleem	Marcel - Gruppenführer
-							<div>
-								<span class="badge badge-default badge-pill">MA</span>
-								<span class="badge badge-default badge-pill">KSF</span>
-							</div>
-					  </div>
-						<div class="list-group-item justify-content-between">
-					    Farwick	Dirk
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Friebel	Aileen - Truppmann
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Friebel	Hendrik - Zugführer
-							<div>
-						    <span class="badge badge-default badge-pill">AGT</span>
-								<span class="badge badge-default badge-pill">MA</span>
-								<span class="badge badge-default badge-pill">KSF</span>
-							</div>
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Grzona	Michael - Truppführer
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Heinemann	Till
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Heinz	Henry
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Hennrich Martin - Truppführer
-							<div>
-						    <span class="badge badge-warning badge-pill">AGT (derzeit nicht einsetzbar)</span>
-							</div>
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Holbein	Marcus - Truppführer
-							<div>
-						    <span class="badge badge-default badge-pill">AGT</span>
-								<span class="badge badge-default badge-pill">MA</span>
-								<span class="badge badge-default badge-pill">KSF</span>
-							</div>
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Jentsch	Nico - Truppmann
-							<div>
-						    <span class="badge badge-default badge-pill">AGT</span>
-								<span class="badge badge-default badge-pill">MA</span>
-								<span class="badge badge-default badge-pill">KSF</span>
-							</div>
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Kewitz Ralf - Truppführer
-							<div>
-								<span class="badge badge-default badge-pill">MA</span>
-							</div>
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Kieper Marco
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Krech Michael - Truppführer
-							<div>
-						    <span class="badge badge-warning badge-pill">AGT (derzeit nicht einsetzbar)</span>
-								<span class="badge badge-default badge-pill">KSF</span>
-							</div>
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Lorenz Silvio - Truppführer
-							<div>
-						    <span class="badge badge-default badge-pill">MA</span>
-								<span class="badge badge-default badge-pill">KSF</span>
-							</div>
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Milde	Lars - Truppmann
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Pöppich	Susann - Gruppenführer
-							<div>
-						    <span class="badge badge-default badge-pill">AGT</span>
-								<span class="badge badge-default badge-pill">MA</span>
-								<span class="badge badge-default badge-pill">KSF</span>
-							</div>
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Schwabe Ines
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Schwabe	Kristina - Truppmann
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Schwabe	Peter - Truppführer
-							<div>
-						    <span class="badge badge-default badge-pill">MA</span>
-							</div>
-					  </div>
-						<div class="list-group-item justify-content-between">
-							Thiem	Anabell
-					  </div>
-						--}}
-
+						
 					</div>
 				</div>
 			</div>

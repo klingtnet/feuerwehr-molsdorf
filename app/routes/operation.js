@@ -16,11 +16,16 @@ export default Ember.Route.extend({
 
         return data;
       }),
-      operationMembers: this.get('store').findAll('member').then((members) => {
-        return members.filterBy('operationalMembers', true).sortBy('firstName');
+      operationalMembers: this.get('store').findAll('member').then((members) => {
+        return members.filter(function(member/*, index, array*/) {
+          if (member.get('operationsDepartment.member')) {
+            return true;
+          }
+          return false;
+        }).sortBy('firstName');
       }),
-      operationMembersCount: this.get('store').findAll('member').then((members) => {
-        let list = members.filterBy('operationalMembers', true);
+      operationalMembersCount: this.get('store').findAll('member').then((members) => {
+        let list = members.filterBy('operationsDepartment.member', true);
         return list.get('length');
       }),
       commiteeMembers: this.get('store').findAll('member').then((members) => {
@@ -28,10 +33,14 @@ export default Ember.Route.extend({
         
         let fireChiefList = Ember.A();
         members.forEach((member) => {
-          if (member.get('militaryCommittee') && member.get('fireChief')) {
-            fireChiefList.push({
-              type: 'fireChief',
-              member: member
+          if (member.get('operationsDepartment.militaryCommittee')) {
+            member.get('operationsDepartment.militaryCommittee').forEach((jobs) => {
+              if (jobs.job === "fireChief") {
+                fireChiefList.push({ 
+                  member: member,
+                  job: "fireChief"
+                });
+              }
             });
           }
         });
@@ -39,10 +48,14 @@ export default Ember.Route.extend({
         
         let deputyFireChiefList = Ember.A();
         members.forEach((member) => {
-          if (member.get('militaryCommittee') && member.get('deputyFireChief')) {
-            fireChiefList.push({
-              type: 'deputyFireChief',
-              member: member
+          if (member.get('operationsDepartment.militaryCommittee')) {
+            member.get('operationsDepartment.militaryCommittee').forEach((jobs) => {
+              if (jobs.job === "deputyFireChief") {
+                deputyFireChiefList.push({ 
+                  member: member,
+                  job: "deputyFireChief"
+                });
+              }
             });
           }
         });
@@ -50,10 +63,14 @@ export default Ember.Route.extend({
         
         let youthOfficerList = Ember.A();
         members.forEach((member) => {
-          if (member.get('militaryCommittee') && member.get('youthOfficer')) {
-            fireChiefList.push({
-              type: 'youthOfficer',
-              member: member
+          if (member.get('operationsDepartment.militaryCommittee')) {
+            member.get('operationsDepartment.militaryCommittee').forEach((jobs) => {
+              if (jobs.job === "youthOfficer") {
+                youthOfficerList.push({ 
+                  member: member,
+                  job: "youthOfficer"
+                });
+              }
             });
           }
         });
@@ -61,10 +78,14 @@ export default Ember.Route.extend({
         
         let childrenOfficerList = Ember.A();
         members.forEach((member) => {
-          if (member.get('militaryCommittee') && member.get('childrenOfficer')) {
-            fireChiefList.push({
-              type: 'childrenOfficer',
-              member: member
+          if (member.get('operationsDepartment.militaryCommittee')) {
+            member.get('operationsDepartment.militaryCommittee').forEach((jobs) => {
+              if (jobs.job === "childrenOfficer") {
+                childrenOfficerList.push({ 
+                  member: member,
+                  job: "childrenOfficer"
+                });
+              }
             });
           }
         });
@@ -72,10 +93,14 @@ export default Ember.Route.extend({
         
         let equipmentOfficerList = Ember.A();
         members.forEach((member) => {
-          if (member.get('militaryCommittee') && member.get('equipmentOfficer')) {
-            fireChiefList.push({
-              type: 'equipmentOfficer',
-              member: member
+          if (member.get('operationsDepartment.militaryCommittee')) {
+            member.get('operationsDepartment.militaryCommittee').forEach((jobs) => {
+              if (jobs.job === "equipmentOfficer") {
+                equipmentOfficerList.push({ 
+                  member: member,
+                  job: "equipmentOfficer"
+                });
+              }
             });
           }
         });
@@ -83,10 +108,14 @@ export default Ember.Route.extend({
         
         let assessorList = Ember.A();
         members.forEach((member) => {
-          if (member.get('militaryCommittee') && member.get('assessor')) {
-            fireChiefList.push({
-              type: 'assessor',
-              member: member
+          if (member.get('operationsDepartment.militaryCommittee')) {
+            member.get('operationsDepartment.militaryCommittee').forEach((jobs) => {
+              if (jobs.job === "assessor") {
+                assessorList.push({ 
+                  member: member,
+                  job: "assessor"
+                });
+              }
             });
           }
         });
@@ -94,10 +123,14 @@ export default Ember.Route.extend({
         
         let representativeHonorDepartmentList = Ember.A();
         members.forEach((member) => {
-          if (member.get('militaryCommittee') && member.get('representativeHonorDepartment')) {
-            fireChiefList.push({
-              type: 'representativeHonorDepartment',
-              member: member
+          if (member.get('operationsDepartment.militaryCommittee')) {
+            member.get('operationsDepartment.militaryCommittee').forEach((jobs) => {
+              if (jobs.job === "representativeHonorDepartment") {
+                representativeHonorDepartmentList.push({ 
+                  member: member,
+                  job: "representativeHonorDepartment"
+                });
+              }
             });
           }
         });
@@ -105,10 +138,14 @@ export default Ember.Route.extend({
         
         let safetyOfficerList = Ember.A();
         members.forEach((member) => {
-          if (member.get('militaryCommittee') && member.get('safetyOfficer')) {
-            fireChiefList.push({
-              type: 'safetyOfficer',
-              member: member
+          if (member.get('operationsDepartment.militaryCommittee')) {
+            member.get('operationsDepartment.militaryCommittee').forEach((jobs) => {
+              if (jobs.job === "safetyOfficer") {
+                safetyOfficerList.push({ 
+                  member: member,
+                  job: "safetyOfficer"
+                });
+              }
             });
           }
         });
