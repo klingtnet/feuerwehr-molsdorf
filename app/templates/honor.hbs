@@ -10,11 +10,9 @@
 				<h3>{{t 'navigation.members'}}</h3>
 				<ul>
 					{{#each model.members as |member|}}
-						{{#if member.honor}}
-							<li>
-								{{member.lastName}} {{member.firstName}}
-							</li>
-						{{/if}}
+						<li>
+							{{member.lastName}} {{member.firstName}}
+						</li>
 					{{else}}
 						<li>
 							Aktuell sind keine Mitglieder in unserer Ehrenabteilung.

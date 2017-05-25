@@ -11,8 +11,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": false,
             "operationsDepartment": {
                 "deputyFireChief": false,
                 "youthOfficer": false,
@@ -28,7 +26,7 @@
                 "member": false,
                 "fireChief": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -36,20 +34,13 @@
             "id": "goerankreutzer",
             "firstName": "Göran",
             "lastName": "Kreutzer",
+            "board": false,
             "honor": true,
             "boardChairman": false,
             "deputyBoardChairman": false,
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": false,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
-            "board": false,
             "operationsDepartment": {
                 "safetyOfficer": true,
                 "groupLeader": false,
@@ -67,7 +58,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -75,25 +66,18 @@
             "id": "muellerandreas",
             "firstName": "Andreas",
             "lastName": "Müller",
+            "board": false,
             "honor": true,
             "boardChairman": false,
             "deputyBoardChairman": false,
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": false,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
-            "safetyOfficer": false,
-            "board": false,
-            "groupLeader": false,
-            "chiefGuard": false,
-            "squadLeader": false,
             "operationsDepartment": {
+                "safetyOfficer": false,
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
                 "troopMan": false,
                 "operationalTasks": false,
                 "militaryCommittee": false,
@@ -104,7 +88,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -126,25 +110,18 @@
             "id": "guenterschwabe",
             "firstName": "Günter",
             "lastName": "Schwabe",
+            "board": false,
             "honor": true,
             "boardChairman": false,
             "deputyBoardChairman": false,
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": false,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
-            "safetyOfficer": false,
-            "board": false,
-            "groupLeader": false,
-            "chiefGuard": false,
-            "squadLeader": false,
             "operationsDepartment": {
+                "groupLeader": false,
+                "chiefGuard": false,
+                "squadLeader": false,
+                "safetyOfficer": false,
                 "troopMan": false,
                 "operationalTasks": false,
                 "militaryCommittee": false,
@@ -155,7 +132,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -184,13 +161,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": false,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": true,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -208,7 +178,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -230,20 +200,13 @@
             "id": "peterschwabe",
             "firstName": "Peter",
             "lastName": "Schwabe",
+            "board": true,
             "honor": false,
             "boardChairman": true,
             "deputyBoardChairman": false,
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
-            "board": true,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -266,7 +229,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -281,13 +244,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": false,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -303,7 +259,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -332,13 +288,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": false,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -354,7 +303,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -383,13 +332,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": false,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -405,7 +347,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -434,13 +376,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -457,7 +392,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -472,13 +407,6 @@
             "treasurer": true,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": false,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -494,7 +422,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -523,13 +451,6 @@
             "treasurer": false,
             "secretary": true,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": true,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -547,7 +468,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -562,13 +483,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": true,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -599,7 +513,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -614,13 +528,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": true,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -653,7 +560,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -668,13 +575,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": true,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "chiefGuard": false,
@@ -703,7 +603,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -728,13 +628,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": false,
-            "deputyFireChief": false,
-            "youthOfficer": true,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -752,7 +645,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -780,13 +673,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": true,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": true,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "board": false,
@@ -821,7 +707,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -835,13 +721,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": true,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "board": false,
@@ -875,7 +754,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -904,13 +783,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "chiefGuard": false,
@@ -941,7 +813,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -956,13 +828,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": false,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -978,7 +843,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -1007,13 +872,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": true,
@@ -1040,7 +898,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -1065,13 +923,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": false,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -1087,7 +938,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             },
             "operationalTasks": [
@@ -1116,13 +967,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -1138,7 +982,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -1153,13 +997,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -1177,7 +1014,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -1192,13 +1029,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -1216,7 +1046,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -1231,13 +1061,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -1264,7 +1087,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -1279,13 +1102,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -1301,7 +1117,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -1316,13 +1132,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -1345,7 +1154,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -1360,13 +1169,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": true,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -1389,7 +1191,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -1404,13 +1206,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": true,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -1426,7 +1221,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -1441,13 +1236,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -1463,7 +1251,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -1478,13 +1266,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
             "operationsDepartment": {
                 "safetyOfficer": false,
                 "groupLeader": false,
@@ -1502,7 +1283,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         },
@@ -1517,14 +1298,6 @@
             "treasurer": false,
             "secretary": false,
             "assessor": false,
-            "fireChief": false,
-            "operationalMembers": true,
-            "deputyFireChief": false,
-            "youthOfficer": false,
-            "childrenOfficer": false,
-            "equipmentOfficer": false,
-            "representativeHonorDepartment": false,
-            "safetyOfficer": false,
             "operationsDepartment": {
                 "groupLeader": false,
                 "chiefGuard": false,
@@ -1539,7 +1312,7 @@
                 "childrenOfficer": false,
                 "equipmentOfficer": false,
                 "assessor": false,
-                "representativeHonerDepartment": false,
+                "representativeHonorDepartment": false,
                 "saftyOfficer": false
             }
         }

@@ -1,0 +1,49 @@
+{
+  "youth-timetable": [
+    {
+      "id": 2017,
+      "topics": [
+        {
+          "date": "05.01",
+          "time": "17:30",
+          "description": "Erste Hilfe Verbände"
+        },
+        {
+          "date": "19.01",
+          "time": "17:30",
+          "description": "Brennen und Löschen"
+        },
+        {
+          "date": "16.02",
+          "time": "17:30",
+          "description": "Fahrzeugkunde"
+        },
+        {
+          "date": "01.03",
+          "time": "17:30",
+          "description": "BWB"
+        },
+        {
+          "date": "15.03",
+          "time": "17:30",
+          "description": "BWB"
+        },
+        {
+          "date": "26.03",
+          "time": "17:30",
+          "description": "Osterfeuer"
+        },
+        {
+          "date": "12.04",
+          "time": "17:30",
+          "description": "BWB"
+        },
+        {
+          "date": "26.04",
+          "time": "17:30",
+          "description": "BWB"
+        }
+      ]
+    }
+  ]
+}
