@@ -26,7 +26,10 @@ export default Ember.Route.extend({
           text: 'Gemeinsam für euch.'
         }
       ],
-      news: this.get('store').findAll('news'),
+      news: this.get('store').findAll('news').then((news) => {
+        // return news.get('firstObject');
+        return news;
+      })
     });
   }
 
