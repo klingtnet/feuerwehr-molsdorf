@@ -13,6 +13,8 @@ export default DS.Model.extend({
     assessor: DS.attr('boolean'),
     
     operationsDepartment: DS.attr(),
+    youthDepartment: DS.attr(),
+    childrenDepartment: DS.attr(),
 
     honor: DS.attr('boolean'),
 });

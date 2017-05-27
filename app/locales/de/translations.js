@@ -81,5 +81,6 @@ export default {
   ksf: 'Kettensägenführer',
   currentlyNotApplicable: 'derzeit nicht einsetzbar',
   troopMan: 'Truppmann',
-  squadLeader: 'Truppführer'
+  squadLeader: 'Truppführer',
+  member: 'Mitglied'
 };
