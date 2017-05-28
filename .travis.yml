@@ -2,10 +2,10 @@ language: node_js
 node_js:
 - '7'
 before_script:
-- yarn global add bower
+  - npm install -g bower
 script:
 - bower install
-- yarn install
+- npm install
 - ember build --environment=production
 deploy:
   local_dir: dist/
