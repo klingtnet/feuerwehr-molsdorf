@@ -7,6 +7,9 @@ script:
 - bower install
 - npm install
 - ember build --environment=production
+cache:
+  directories:
+    - node_modules
 deploy:
   local_dir: dist/
   provider: pages
