@@ -11,6 +11,8 @@ deploy:
   local_dir: dist/
   provider: pages
   skip_cleanup: true
+  fqdn: github.com/feuerwehr-molsdorf/feuerwehr-molsdorf.git
+  target_branch: master
   github_token: "$GITHUB_TOKEN"
   on:
     branch: master
