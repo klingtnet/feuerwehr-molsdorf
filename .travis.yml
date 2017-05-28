@@ -11,7 +11,7 @@ deploy:
   local_dir: dist/
   provider: pages
   skip_cleanup: true
-  repo: feuerwehr-molsdorf/feuerwehr-molsdorf
+  repo: feuerwehr-molsdorf/feuerwehr-molsdorf.github.io
   target_branch: master
   github_token: "$GITHUB_TOKEN"
   on:
